@@ -1,0 +1,552 @@
+2023-03-04 19:16:09,553 12020 INFO ? odoo: Odoo version 15.0-20230206 
+2023-03-04 19:16:09,553 12020 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-03-04 19:16:09,553 12020 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons'] 
+2023-03-04 19:16:09,553 12020 INFO ? odoo: database: openpg@localhost:5432 
+2023-03-04 19:16:10,682 12020 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-03-04 19:16:12,439 12020 INFO ? odoo.service.server: Initiating shutdown 
+2023-03-04 19:16:12,439 12020 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-03-04 19:16:16,333 8692 INFO ? odoo: Odoo version 15.0-20230206 
+2023-03-04 19:16:16,333 8692 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-03-04 19:16:16,333 8692 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons'] 
+2023-03-04 19:16:16,333 8692 INFO ? odoo: database: openpg@localhost:5432 
+2023-03-04 19:16:16,870 8692 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-03-04 19:16:17,607 8692 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-B922KQD.8F.pointe.orld.fl.wtsky.net:8069 
+2023-03-04 19:17:08,588 8692 INFO ? odoo.http: HTTP Configuring static files 
+2023-03-04 19:17:08,855 8692 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-03-04 19:17:08,870 8692 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-03-04 19:17:08,884 8692 INFO Potosu odoo.modules.loading: loading 7 modules... 
+2023-03-04 19:17:09,355 8692 INFO Potosu odoo.modules.loading: 7 modules loaded in 0.47s, 0 queries (+0 extra) 
+2023-03-04 19:17:09,454 8692 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-03-04 19:17:09,472 8692 INFO Potosu odoo.modules.registry: Registry loaded in 0.828s 
+2023-03-04 19:17:09,474 8692 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-03-04 19:17:09,698 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:09] "GET / HTTP/1.1" 303 - 17 0.214 0.855
+2023-03-04 19:17:32,109 8692 INFO Potosu odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-03-04 19:17:32,113 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:32] "GET /web HTTP/1.1" 200 - 257 0.521 21.868
+2023-03-04 19:17:32,190 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:32] "GET /web/assets/37-2c59a9f/web.assets_common.min.css HTTP/1.1" 200 - 4 0.028 0.011
+2023-03-04 19:17:32,477 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:32] "GET /web/assets/38-75ed68c/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.000 0.024
+2023-03-04 19:17:32,504 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:32] "GET /web/assets/39-2c59a9f/web.assets_common.min.js HTTP/1.1" 200 - 2 0.001 0.047
+2023-03-04 19:17:32,703 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:32] "GET /web/assets/40-75ed68c/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.015 0.168
+2023-03-04 19:17:32,704 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:32] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 3 0.053 0.141
+2023-03-04 19:17:32,873 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:32] "GET /web/assets/41-b143b56/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.015 0.027
+2023-03-04 19:17:32,986 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:32] "GET /web/webclient/load_menus/783977f7e9348da888ef2bb0dfa8b786cf48d95cd15f50e48455e1eab0c4dbf1 HTTP/1.1" 200 - 108 0.308 0.177
+2023-03-04 19:17:33,198 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:33] "GET /web/webclient/qweb/7388709eb1f20938d89010e5ccec4c2e8fbbe1f60b085b70abbcb923589860a6?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.007 0.683
+2023-03-04 19:17:33,802 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:33] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 3 0.002 0.008
+2023-03-04 19:17:34,135 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:34] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 3 0.008 0.005
+2023-03-04 19:17:34,456 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:34] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.000 0.000
+2023-03-04 19:17:35,561 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:35] "POST /web/action/load HTTP/1.1" 200 - 29 0.049 0.019
+2023-03-04 19:17:35,805 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:35] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - - - -
+2023-03-04 19:17:35,952 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:35] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 16 0.024 0.025
+2023-03-04 19:17:36,046 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:36] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 59 0.152 0.073
+2023-03-04 19:17:36,465 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.050 0.027
+2023-03-04 19:17:36,668 8692 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:36] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.012
+2023-03-04 19:17:36,842 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:36] "GET /sale_management/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,151 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /im_livechat/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,156 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /maintenance/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,159 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,161 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /project/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,164 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /website_blog/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,171 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /mail/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,465 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,483 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /fleet/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,485 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /survey/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,487 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,490 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,493 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /base/static/img/icons/appointment.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,785 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /website_event/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,800 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,801 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /purchase/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,804 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /mrp/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,807 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /base/static/img/icons/sign.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:37,810 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:37] "GET /hr/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,100 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,113 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,116 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,119 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,122 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /contacts/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,124 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,425 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /repair/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,425 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,425 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,439 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /website_slides/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,441 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,443 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /website_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,750 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,752 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,754 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /calendar/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,759 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,760 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /hr_expense/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:38,762 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:38] "GET /board/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,062 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,062 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /base/static/img/icons/planning.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,071 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /account/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,073 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,074 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /crm/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,076 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /website/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,378 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /stock/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,378 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,391 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /note/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,397 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /website_forum/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,403 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /hr_skills/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,404 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /base/static/img/icons/voip.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,719 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /lunch/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,719 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,723 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,724 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /hr_contract/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,725 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:39,726 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:39] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:40,049 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:40] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:40,050 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:40] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:40,053 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:40] "GET /payment_mollie/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:40,054 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:40] "GET /payment_ogone/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:40,057 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:40] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:40,059 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:40] "GET /payment_payulatam/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:40,377 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:40] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:40,379 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:40] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 19:17:40,379 8692 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 19:17:40] "GET /payment_sips/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:31,060 8692 INFO ? odoo.service.server: Initiating shutdown 
+2023-03-04 23:18:31,060 8692 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-03-04 23:18:31,221 8692 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2023-03-04 23:18:38,258 8252 INFO ? odoo: Odoo version 15.0-20230206 
+2023-03-04 23:18:38,259 8252 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-03-04 23:18:38,259 8252 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo'] 
+2023-03-04 23:18:38,260 8252 INFO ? odoo: database: openpg@localhost:5432 
+2023-03-04 23:18:38,914 8252 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-03-04 23:18:39,598 8252 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-B922KQD.8F.pointe.orld.fl.wtsky.net:8069 
+2023-03-04 23:18:45,852 8252 INFO ? odoo.http: HTTP Configuring static files 
+2023-03-04 23:18:45,956 8252 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-03-04 23:18:45,963 8252 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-03-04 23:18:45,970 8252 INFO Potosu odoo.modules.loading: loading 7 modules... 
+2023-03-04 23:18:46,107 8252 INFO Potosu odoo.modules.loading: 7 modules loaded in 0.14s, 0 queries (+0 extra) 
+2023-03-04 23:18:46,158 8252 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-03-04 23:18:46,164 8252 INFO Potosu odoo.modules.registry: Registry loaded in 0.278s 
+2023-03-04 23:18:46,165 8252 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-03-04 23:18:55,103 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:55] "GET /web HTTP/1.1" 200 - 195 0.240 8.986
+2023-03-04 23:18:55,186 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:55] "GET /web/assets/37-2c59a9f/web.assets_common.min.css HTTP/1.1" 200 - 2 0.001 0.045
+2023-03-04 23:18:55,208 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:55] "GET /web/assets/38-75ed68c/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.003 0.062
+2023-03-04 23:18:55,639 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:55] "GET /web/webclient/load_menus/783977f7e9348da888ef2bb0dfa8b786cf48d95cd15f50e48455e1eab0c4dbf1 HTTP/1.1" 200 - 1 0.001 0.145
+2023-03-04 23:18:55,658 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:55] "GET /web/assets/41-b143b56/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.009 0.197
+2023-03-04 23:18:55,668 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:55] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 5 0.028 0.116
+2023-03-04 23:18:55,693 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:55] "GET /web/webclient/qweb/7388709eb1f20938d89010e5ccec4c2e8fbbe1f60b085b70abbcb923589860a6?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.003 0.232
+2023-03-04 23:18:55,859 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:55] "GET /web/assets/39-2c59a9f/web.assets_common.min.js HTTP/1.1" 200 - 2 0.006 0.405
+2023-03-04 23:18:55,907 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:55] "GET /web/assets/40-75ed68c/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.009 0.448
+2023-03-04 23:18:56,440 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:56] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 3 0.015 0.006
+2023-03-04 23:18:56,694 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:56] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 3 0.002 0.006
+2023-03-04 23:18:56,758 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:56] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.002 0.004
+2023-03-04 23:18:56,871 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:56] "POST /web/action/load HTTP/1.1" 200 - 28 0.087 0.035
+2023-03-04 23:18:57,032 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:57] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - - - -
+2023-03-04 23:18:57,178 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:57] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 16 0.039 0.013
+2023-03-04 23:18:57,203 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:57] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 57 0.051 0.041
+2023-03-04 23:18:57,281 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.044 0.018
+2023-03-04 23:18:57,616 8252 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:57] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.018 0.005
+2023-03-04 23:18:57,861 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:57] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,010 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,010 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /hr_expense/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,012 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /mail/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,014 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /im_livechat/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,015 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /repair/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,166 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,334 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /calendar/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,335 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /website_event/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,336 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /website_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,338 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,338 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,476 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /base/static/img/icons/sign.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,655 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,656 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,657 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /fleet/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,658 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /board/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,659 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,791 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /website_slides/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,966 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,967 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,968 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,969 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:58,970 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:58] "GET /base/static/img/icons/planning.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,102 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,290 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /survey/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,292 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /website_blog/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,293 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /base/static/img/icons/appointment.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,293 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,295 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /contacts/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,410 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,606 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /hr/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,608 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /project/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,610 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /maintenance/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,611 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,612 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,730 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,927 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /purchase/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,928 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /mrp/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,931 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /sale_management/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,933 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /account/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:18:59,936 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:18:59] "GET /crm/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,047 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,249 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /note/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,250 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /website/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,250 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /stock/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,250 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /website_forum/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,254 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /hr_skills/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,360 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /base/static/img/icons/voip.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,570 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,572 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /lunch/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,573 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,576 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /hr_contract/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,577 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,680 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,888 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,889 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,892 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /payment_mollie/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,894 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /payment_ogone/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,895 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:00,993 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:00] "GET /payment_payulatam/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:01,203 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:01] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:01,203 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:01] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:01,205 8252 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:01] "GET /payment_sips/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:19:37,731 8252 INFO ? odoo.service.server: Initiating shutdown 
+2023-03-04 23:19:37,731 8252 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-03-04 23:19:38,243 8252 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 8 connections  
+2023-03-04 23:19:40,394 12092 INFO ? odoo: Odoo version 15.0-20230206 
+2023-03-04 23:19:40,394 12092 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-03-04 23:19:40,394 12092 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo'] 
+2023-03-04 23:19:40,394 12092 INFO ? odoo: database: openpg@localhost:5432 
+2023-03-04 23:19:40,642 12092 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-03-04 23:19:41,032 12092 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-B922KQD.8F.pointe.orld.fl.wtsky.net:8069 
+2023-03-04 23:19:53,266 12092 INFO ? odoo.http: HTTP Configuring static files 
+2023-03-04 23:19:53,364 12092 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-03-04 23:19:53,374 12092 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-03-04 23:19:53,381 12092 INFO Potosu odoo.modules.loading: loading 7 modules... 
+2023-03-04 23:19:53,552 12092 INFO Potosu odoo.modules.loading: 7 modules loaded in 0.17s, 0 queries (+0 extra) 
+2023-03-04 23:19:53,644 12092 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-03-04 23:19:53,654 12092 INFO Potosu odoo.modules.registry: Registry loaded in 0.366s 
+2023-03-04 23:19:53,656 12092 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-03-04 23:19:53,931 12092 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:53] "POST /web/action/load HTTP/1.1" 200 - 33 0.129 0.515
+2023-03-04 23:19:53,968 12092 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:53] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 - 11 0.013 0.011
+2023-03-04 23:19:54,298 12092 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:54] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 3 0.011 0.003
+2023-03-04 23:19:55,589 12092 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:55] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 6 0.017 0.008
+2023-03-04 23:19:55,914 12092 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:55] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.001 0.006
+2023-03-04 23:19:56,178 12092 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-04 23:19:58,239 12092 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:19:58] "POST /web/dataset/call_button HTTP/1.1" 200 - 1058 0.709 1.355
+2023-03-04 23:20:19,440 12092 INFO ? odoo.service.server: Initiating shutdown 
+2023-03-04 23:20:19,440 12092 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-03-04 23:20:19,619 12092 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 3 connections  
+2023-03-04 23:20:22,040 13136 INFO ? odoo: Odoo version 15.0-20230206 
+2023-03-04 23:20:22,040 13136 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-03-04 23:20:22,040 13136 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo'] 
+2023-03-04 23:20:22,041 13136 INFO ? odoo: database: openpg@localhost:5432 
+2023-03-04 23:20:22,235 13136 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-03-04 23:20:22,603 13136 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-B922KQD.8F.pointe.orld.fl.wtsky.net:8069 
+2023-03-04 23:20:27,003 13136 INFO ? odoo.http: HTTP Configuring static files 
+2023-03-04 23:20:27,204 13136 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-03-04 23:20:27,211 13136 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-03-04 23:20:27,216 13136 INFO Potosu odoo.modules.loading: loading 7 modules... 
+2023-03-04 23:20:27,322 13136 INFO Potosu odoo.modules.loading: 7 modules loaded in 0.11s, 0 queries (+0 extra) 
+2023-03-04 23:20:27,375 13136 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-03-04 23:20:27,381 13136 INFO Potosu odoo.modules.registry: Registry loaded in 0.360s 
+2023-03-04 23:20:27,383 13136 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-03-04 23:20:27,522 13136 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:20:27] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 19 0.063 0.443
+2023-03-04 23:20:30,837 13136 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:20:30] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 6 0.017 0.007
+2023-03-04 23:20:31,157 13136 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:20:31] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 4 0.003 0.007
+2023-03-04 23:20:31,412 13136 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-04 23:20:32,564 13136 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:20:32] "POST /web/dataset/call_button HTTP/1.1" 200 - 1060 0.544 0.616
+2023-03-04 23:20:37,734 13136 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:20:37] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.032 0.015
+2023-03-04 23:20:38,020 13136 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:20:38] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.004 0.009
+2023-03-04 23:20:41,830 13136 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:20:41] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.029 0.019
+2023-03-04 23:20:42,045 13136 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:20:42] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.002 0.005
+2023-03-04 23:20:42,169 13136 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:20:42] "GET /web/static/img/empty_folder.svg HTTP/1.1" 304 - - - -
+2023-03-04 23:22:45,870 13136 INFO ? odoo.service.server: Initiating shutdown 
+2023-03-04 23:22:45,870 13136 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-03-04 23:22:46,946 13136 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 3 connections  
+2023-03-04 23:22:50,511 6360 INFO ? odoo: Odoo version 15.0-20230206 
+2023-03-04 23:22:50,511 6360 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-03-04 23:22:50,511 6360 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\custom_modules\\plant_care_app'] 
+2023-03-04 23:22:50,511 6360 INFO ? odoo: database: openpg@localhost:5432 
+2023-03-04 23:22:50,724 6360 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-03-04 23:22:51,110 6360 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-B922KQD.8F.pointe.orld.fl.wtsky.net:8069 
+2023-03-04 23:22:53,121 6360 INFO ? odoo.http: HTTP Configuring static files 
+2023-03-04 23:22:53,203 6360 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-03-04 23:22:53,210 6360 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-03-04 23:22:53,215 6360 INFO Potosu odoo.modules.loading: loading 7 modules... 
+2023-03-04 23:22:53,322 6360 INFO Potosu odoo.modules.loading: 7 modules loaded in 0.11s, 0 queries (+0 extra) 
+2023-03-04 23:22:53,363 6360 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-03-04 23:22:53,368 6360 INFO Potosu odoo.modules.registry: Registry loaded in 0.229s 
+2023-03-04 23:22:53,370 6360 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-03-04 23:22:53,535 6360 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:22:53] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 61 0.106 0.292
+2023-03-04 23:22:53,549 6360 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:22:53] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.002 0.007
+2023-03-04 23:22:55,208 6360 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:22:55] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 3 0.016 0.023
+2023-03-04 23:22:56,380 6360 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:22:56] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 6 0.005 0.007
+2023-03-04 23:22:56,709 6360 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:22:56] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 4 0.004 0.005
+2023-03-04 23:22:56,973 6360 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-04 23:22:58,134 6360 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:22:58] "POST /web/dataset/call_button HTTP/1.1" 200 - 1058 0.481 0.686
+2023-03-04 23:22:59,890 6360 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:22:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.024 0.012
+2023-03-04 23:23:00,186 6360 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:00] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.009
+2023-03-04 23:23:00,568 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:00] "GET /website_event/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:00,568 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:00] "GET /im_livechat/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:00,568 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:00] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:00,571 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:00] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:00,575 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:00] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:00,576 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:00] "GET /base/static/img/icons/appointment.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:00,875 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:00] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:00,880 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:00] "GET /website_blog/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:00,882 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:00] "GET /website_slides/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:00,884 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:00] "GET /base/static/img/icons/planning.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:00,885 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:00] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:00,886 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:00] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,201 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,201 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /survey/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,201 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /contacts/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,203 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /repair/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,206 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /maintenance/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,207 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /board/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,515 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,515 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /website_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,515 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,521 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /calendar/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,522 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,522 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /project/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,831 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,832 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,835 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /purchase/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,837 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /base/static/img/icons/sign.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,837 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /mrp/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:01,839 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:01] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,145 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,145 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /hr_expense/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,146 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /fleet/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,148 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,148 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /mail/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,149 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,471 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /hr/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,472 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /account/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,475 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /sale_management/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,476 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,476 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /crm/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,477 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /website/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,779 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /stock/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,785 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /note/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,786 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /website_forum/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,788 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /hr_skills/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,790 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /base/static/img/icons/voip.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:02,791 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:02] "GET /lunch/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:03,107 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:03] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:03,108 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:03] "GET /hr_contract/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:03,111 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:03] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:03,112 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:03] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:03,115 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:03] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:03,116 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:03] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:03,433 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:03] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:03,434 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:03] "GET /payment_mollie/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:03,436 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:03] "GET /payment_ogone/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:03,439 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:03] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:03,440 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:03] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:03,440 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:03] "GET /payment_payulatam/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:03,753 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:03] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:03,755 6360 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:03] "GET /payment_sips/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:04,873 6360 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:04] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.001 0.004
+2023-03-04 23:23:05,768 6360 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:05] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 4 0.004 0.007
+2023-03-04 23:23:06,094 6360 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:06] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 2 0.002 0.004
+2023-03-04 23:23:06,345 6360 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-04 23:23:07,495 6360 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:07] "POST /web/dataset/call_button HTTP/1.1" 200 - 1046 0.506 0.648
+2023-03-04 23:23:37,642 6360 INFO ? odoo.service.server: Initiating shutdown 
+2023-03-04 23:23:37,642 6360 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-03-04 23:23:38,722 6360 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 3 connections  
+2023-03-04 23:23:42,347 8664 INFO ? odoo: Odoo version 15.0-20230206 
+2023-03-04 23:23:42,347 8664 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-03-04 23:23:42,348 8664 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\custom_modules'] 
+2023-03-04 23:23:42,348 8664 INFO ? odoo: database: openpg@localhost:5432 
+2023-03-04 23:23:42,560 8664 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-03-04 23:23:42,932 8664 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-B922KQD.8F.pointe.orld.fl.wtsky.net:8069 
+2023-03-04 23:23:46,619 8664 INFO ? odoo.http: HTTP Configuring static files 
+2023-03-04 23:23:46,808 8664 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-03-04 23:23:46,816 8664 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-03-04 23:23:46,822 8664 INFO Potosu odoo.modules.loading: loading 7 modules... 
+2023-03-04 23:23:46,932 8664 INFO Potosu odoo.modules.loading: 7 modules loaded in 0.11s, 0 queries (+0 extra) 
+2023-03-04 23:23:46,982 8664 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-03-04 23:23:46,991 8664 INFO Potosu odoo.modules.registry: Registry loaded in 0.354s 
+2023-03-04 23:23:46,993 8664 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-03-04 23:23:47,724 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:47] "GET /web HTTP/1.1" 200 - 195 0.247 0.843
+2023-03-04 23:23:47,793 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:47] "GET /web/assets/37-2c59a9f/web.assets_common.min.css HTTP/1.1" 200 - 2 0.001 0.047
+2023-03-04 23:23:47,804 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:47] "GET /web/assets/38-75ed68c/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.007 0.051
+2023-03-04 23:23:48,233 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:48] "GET /web/assets/41-b143b56/web.assets_backend_prod_only.min.js HTTP/1.1" 304 - 2 0.006 0.170
+2023-03-04 23:23:48,234 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:48] "GET /web/assets/39-2c59a9f/web.assets_common.min.js HTTP/1.1" 304 - 2 0.006 0.175
+2023-03-04 23:23:48,238 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:48] "GET /web/webclient/load_menus/783977f7e9348da888ef2bb0dfa8b786cf48d95cd15f50e48455e1eab0c4dbf1 HTTP/1.1" 200 - 1 0.004 0.175
+2023-03-04 23:23:48,248 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:48] "GET /web/assets/40-75ed68c/web.assets_backend.min.js HTTP/1.1" 304 - 2 0.008 0.185
+2023-03-04 23:23:48,264 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:48] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 5 0.027 0.125
+2023-03-04 23:23:48,338 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:48] "GET /web/webclient/qweb/7388709eb1f20938d89010e5ccec4c2e8fbbe1f60b085b70abbcb923589860a6?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.003 0.238
+2023-03-04 23:23:48,803 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:48] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 3 0.013 0.005
+2023-03-04 23:23:49,044 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:49] "GET /web/static/img/favicon.ico HTTP/1.1" 304 - - - -
+2023-03-04 23:23:49,054 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:49] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 3 0.014 0.005
+2023-03-04 23:23:49,133 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:49] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.001 0.006
+2023-03-04 23:23:49,176 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:49] "POST /web/action/load HTTP/1.1" 200 - 28 0.028 0.038
+2023-03-04 23:23:49,379 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:49] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - - - -
+2023-03-04 23:23:49,528 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:49] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 11 0.021 0.021
+2023-03-04 23:23:49,529 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:49] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.019 0.020
+2023-03-04 23:23:49,633 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:49] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 57 0.109 0.037
+2023-03-04 23:23:49,714 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.053 0.014
+2023-03-04 23:23:50,046 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:50] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.009 0.006
+2023-03-04 23:23:50,301 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:50] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:50,379 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:50] "GET /im_livechat/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:50,383 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:50] "GET /website_event/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:50,385 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:50] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:50,386 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:50] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:50,387 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:50] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:50,613 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:50] "GET /base/static/img/icons/appointment.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:50,697 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:50] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:50,698 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:50] "GET /website_blog/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:50,699 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:50] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:50,699 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:50] "GET /website_slides/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:50,699 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:50] "GET /base/static/img/icons/planning.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:50,930 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:50] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,015 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,017 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /contacts/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,018 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,019 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /repair/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,022 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /survey/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,241 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /maintenance/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,338 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /board/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,341 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,342 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,344 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /website_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,345 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /calendar/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,554 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,649 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /project/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,653 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,653 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,655 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /purchase/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,656 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /base/static/img/icons/sign.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,863 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /mrp/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,954 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,957 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,958 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /hr_expense/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,961 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /fleet/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:51,962 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:51] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,176 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /mail/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,273 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,274 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /sale_management/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,275 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /hr/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,277 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /account/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,278 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /crm/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,488 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,583 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /website/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,586 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /stock/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,588 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /note/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,589 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /website_forum/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,590 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /hr_skills/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,804 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /base/static/img/icons/voip.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,904 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /lunch/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,905 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,909 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,911 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /hr_contract/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:52,913 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:52] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:53,119 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:53] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:53,216 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:53] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:53,217 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:53] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:53,224 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:53] "GET /payment_mollie/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:53,224 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:53] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:53,225 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:53] "GET /payment_ogone/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:53,433 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:53] "GET /payment_payulatam/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:53,530 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:53] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:53,531 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:53] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:53,534 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:53] "GET /payment_sips/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:23:54,039 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:54] "POST /web/action/load HTTP/1.1" 200 - 16 0.026 0.013
+2023-03-04 23:23:54,293 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:54] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 - 11 0.015 0.008
+2023-03-04 23:23:54,380 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:54] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 3 0.011 0.007
+2023-03-04 23:23:55,523 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:55] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 6 0.007 0.013
+2023-03-04 23:23:55,843 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:55] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.004 0.004
+2023-03-04 23:23:56,106 8664 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-04 23:23:56,313 8664 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-04 23:23:57,312 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:23:57] "POST /web/dataset/call_button HTTP/1.1" 200 - 1069 0.547 0.663
+2023-03-04 23:24:05,799 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:24:05] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.003 0.008
+2023-03-04 23:24:07,215 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:24:07] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 4 0.019 0.013
+2023-03-04 23:24:07,458 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:24:07] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 2 0.000 0.005
+2023-03-04 23:24:07,532 8664 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-04 23:24:07,708 8664 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-04 23:24:08,705 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:24:08] "POST /web/dataset/call_button HTTP/1.1" 200 - 1047 0.534 0.644
+2023-03-04 23:24:10,431 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:24:10] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 2 0.002 0.003
+2023-03-04 23:24:10,751 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:24:10] "POST /web/dataset/call_kw/ir.rule/check_access_rights HTTP/1.1" 200 - 1 0.001 0.004
+2023-03-04 23:24:10,754 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:24:10] "POST /web/dataset/call_kw/ir.model.access/check_access_rights HTTP/1.1" 200 - 1 0.000 0.006
+2023-03-04 23:24:29,530 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:24:29] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 23 0.019 0.025
+2023-03-04 23:24:29,796 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:24:29] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.026 0.017
+2023-03-04 23:24:29,859 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:24:29] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.008
+2023-03-04 23:24:30,120 8664 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2023 23:24:30] "GET /base/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-04 23:24:31,897 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:24:31] "POST /web/action/load HTTP/1.1" 200 - 7 0.027 0.008
+2023-03-04 23:25:28,734 8664 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Plant Care App'] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-04 23:25:28,734 8664 INFO Potosu odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2023-03-04 23:25:28,737 8664 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Plant Care App'] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-04 23:25:28,740 8664 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-04 23:25:28,811 8664 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-03-04 23:25:28,820 8664 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-03-04 23:25:28,851 8664 INFO Potosu odoo.modules.loading: updating modules list 
+2023-03-04 23:25:28,859 8664 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-03-04 23:25:29,052 8664 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-04 23:25:30,102 8664 INFO Potosu odoo.modules.loading: loading 7 modules... 
+2023-03-04 23:25:30,109 8664 INFO Potosu odoo.modules.loading: 7 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-03-04 23:25:30,110 8664 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-04 23:25:30,111 8664 INFO Potosu odoo.modules.loading: loading 8 modules... 
+2023-03-04 23:25:30,111 8664 INFO Potosu odoo.modules.loading: Loading module plant_care_app (2/8) 
+2023-03-04 23:25:30,156 8664 CRITICAL Potosu odoo.modules.module: Couldn't load module plant_care_app 
+2023-03-04 23:25:30,156 8664 CRITICAL Potosu odoo.modules.module: cannot import name 'models' from 'odoo.addons.plant_care_app' (c:\users\wrigh\onedrive\desktop\odoo\custom_modules\plant_care_app\__init__.py) 
+2023-03-04 23:25:30,159 8664 WARNING Potosu odoo.modules.loading: Transient module states were reset 
+2023-03-04 23:25:30,159 8664 ERROR Potosu odoo.modules.registry: Failed to load registry 
+2023-03-04 23:25:30,159 8664 ERROR Potosu odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\base\models\ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\service\model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 916, in __call__
+    return self.method(*args, **kw)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\web\controllers\main.py", line 1346, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\web\controllers\main.py", line 1334, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\api.py", line 464, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\api.py", line 451, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-74>", line 2, in button_immediate_install
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\base\models\ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\base\models\ir_module.py", line 486, in button_immediate_install
+    return self._button_immediate_function(type(self).button_install)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\base\models\ir_module.py", line 603, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\modules\loading.py", line 476, in load_modules
+    loaded_modules, update_module, models_to_check)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\modules\module.py", line 396, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\wrigh\onedrive\desktop\odoo\custom_modules\plant_care_app\__init__.py", line 2, in <module>
+    from . import models
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+ImportError: cannot import name 'models' from 'odoo.addons.plant_care_app' (c:\users\wrigh\onedrive\desktop\odoo\custom_modules\plant_care_app\__init__.py)
+2023-03-04 23:25:30,273 8664 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-03-04 23:25:30,279 8664 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-03-04 23:25:30,285 8664 INFO Potosu odoo.modules.loading: loading 7 modules... 
+2023-03-04 23:25:30,289 8664 INFO Potosu odoo.modules.loading: 7 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-03-04 23:25:30,323 8664 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-03-04 23:25:30,325 8664 INFO Potosu odoo.modules.registry: Registry loaded in 0.075s 
+2023-03-04 23:25:30,325 8664 INFO Potosu werkzeug: 127.0.0.1 - - [04/Mar/2023 23:25:30] "POST /web/dataset/call_button HTTP/1.1" 200 - 1101 0.656 0.943
+2023-03-04 23:27:15,092 8664 INFO ? odoo.service.server: Initiating shutdown 
+2023-03-04 23:27:15,092 8664 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-03-04 23:27:15,590 8664 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 8 connections  
