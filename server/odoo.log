@@ -1086,3 +1086,1071 @@ ImportError: cannot import name 'models' from 'odoo.addons.plant_care_app' (c:\u
 2023-03-09 04:49:32,962 7520 INFO ? odoo.service.server: Initiating shutdown 
 2023-03-09 04:49:32,962 7520 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
 2023-03-09 04:49:33,077 7520 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 7 connections  
+2023-03-17 18:45:42,055 12680 INFO ? odoo: Odoo version 15.0-20230206 
+2023-03-17 18:45:42,056 12680 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-03-17 18:45:42,056 12680 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\custom_modules'] 
+2023-03-17 18:45:42,056 12680 INFO ? odoo: database: openpg@localhost:5432 
+2023-03-17 18:45:42,477 12680 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-03-17 18:45:43,296 12680 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-B922KQD.8F.pointe.orld.fl.wtsky.net:8069 
+2023-03-17 18:45:52,339 12680 INFO ? odoo.http: HTTP Configuring static files 
+2023-03-17 18:45:52,471 12680 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-03-17 18:45:52,481 12680 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-03-17 18:45:52,485 12680 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-17 18:45:52,492 12680 INFO Potosu odoo.modules.loading: loading 9 modules... 
+2023-03-17 18:45:52,501 12680 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-17 18:45:52,694 12680 INFO Potosu odoo.modules.loading: 9 modules loaded in 0.20s, 0 queries (+0 extra) 
+2023-03-17 18:45:52,754 12680 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-03-17 18:45:52,760 12680 INFO Potosu odoo.modules.registry: Registry loaded in 0.392s 
+2023-03-17 18:45:52,761 12680 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-03-17 18:45:55,031 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:45:55] "GET /web HTTP/1.1" 200 - 197 0.323 2.353
+2023-03-17 18:45:55,091 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:45:55] "GET /web/assets/37-2c59a9f/web.assets_common.min.css HTTP/1.1" 200 - 2 0.001 0.021
+2023-03-17 18:45:55,655 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:45:55] "GET /web/webclient/load_menus/3c527b36b846a62906f0d0189f2f573b1aea23c97b11812aff2782330f17ec30 HTTP/1.1" 200 - 1 0.002 0.257
+2023-03-17 18:45:55,656 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:45:55] "GET /web/assets/38-75ed68c/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.008 0.259
+2023-03-17 18:45:55,785 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:45:55] "GET /web/webclient/qweb/7388709eb1f20938d89010e5ccec4c2e8fbbe1f60b085b70abbcb923589860a6?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.009 0.372
+2023-03-17 18:45:56,008 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:45:56] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 5 0.038 0.006
+2023-03-17 18:45:58,138 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:45:58] "GET /web/assets/41-b143b56/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.006 2.738
+2023-03-17 18:45:58,511 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:45:58] "GET /web/assets/40-75ed68c/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.007 3.111
+2023-03-17 18:45:58,562 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:45:58] "GET /web/assets/39-2c59a9f/web.assets_common.min.js HTTP/1.1" 200 - 2 0.004 3.168
+2023-03-17 18:45:59,169 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:45:59] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 3 0.013 0.004
+2023-03-17 18:45:59,431 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:45:59] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 3 0.012 0.005
+2023-03-17 18:45:59,533 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:45:59] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.000 0.008
+2023-03-17 18:45:59,666 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:45:59] "POST /web/action/load HTTP/1.1" 200 - 28 0.113 0.076
+2023-03-17 18:45:59,756 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:45:59] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - - - -
+2023-03-17 18:46:00,025 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:00] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 16 0.056 0.023
+2023-03-17 18:46:00,077 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:00] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 11 0.012 0.024
+2023-03-17 18:46:00,082 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:00] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 57 0.114 0.054
+2023-03-17 18:46:00,508 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:00] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.069 0.026
+2023-03-17 18:46:00,703 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:00] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.012 0.010
+2023-03-17 18:46:00,828 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:00] "GET /base/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,147 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /website_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,151 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,152 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,155 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /purchase/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,161 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /hr_expense/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,167 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /project/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,468 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /mrp/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,470 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,470 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,475 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /sale_management/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,476 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /account/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,478 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /crm/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,800 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /website/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,801 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,801 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /stock/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,801 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,804 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:01,805 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:01] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,121 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,125 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /hr/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,127 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /maintenance/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,128 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,130 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /base/static/img/icons/sign.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,140 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /library_app/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-03-17 18:46:02,449 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /website_slides/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,449 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,451 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,453 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /base/static/img/icons/planning.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,456 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /website_event/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,459 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /mail/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,764 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /contacts/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,767 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,773 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /calendar/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,777 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,779 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:02,780 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:02] "GET /fleet/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,088 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /website_blog/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,094 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /base/static/img/icons/appointment.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,094 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /im_livechat/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,096 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /survey/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,098 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,099 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /board/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,417 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /repair/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,417 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,418 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,422 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,422 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /note/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,424 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /website_forum/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,741 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /base/static/img/icons/voip.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,742 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /lunch/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,742 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /hr_skills/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,745 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,745 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:03,747 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:03] "GET /hr_contract/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:04,065 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:04] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:04,066 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:04] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:04,069 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:04] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:04,070 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:04] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:04,073 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:04] "GET /payment_mollie/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:04,074 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:04] "GET /payment_ogone/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:04,392 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:04] "GET /payment_payulatam/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:04,392 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:04] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:04,392 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:04] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:04,397 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:04] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:04,399 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:04] "GET /payment_sips/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:46:27,304 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:27] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 11 0.027 0.108
+2023-03-17 18:46:27,424 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:27] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.000 0.000
+2023-03-17 18:46:27,633 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:27] "GET /base/static/src/css/description.css HTTP/1.1" 304 - - - -
+2023-03-17 18:46:27,801 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:27] "GET /web/image?model=ir.module.module&id=508&field=icon_image&unique=03082023234807 HTTP/1.1" 200 - 3 0.010 0.006
+2023-03-17 18:46:27,819 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:27] "GET /web/static/img/form_sheetbg.png HTTP/1.1" 200 - - - -
+2023-03-17 18:46:30,638 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:30] "GET /base/static/src/css/description.css HTTP/1.1" 304 - - - -
+2023-03-17 18:46:43,410 12680 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2023-03-17 18:46:43,438 12680 INFO Potosu odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2023-03-17 18:46:43,468 12680 INFO Potosu odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2023-03-17 18:46:43,500 12680 INFO Potosu odoo.models.unlink: User #1 deleted base.module.update records with IDs: [35] 
+2023-03-17 18:46:43,549 12680 INFO Potosu odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2023-03-17 18:46:43,564 12680 INFO Potosu odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2023-03-17 18:46:47,936 12680 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Library Management'] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-17 18:46:47,936 12680 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Library Management'] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-17 18:46:47,936 12680 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Library Management'] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-17 18:46:49,088 12680 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-17 18:46:49,749 12680 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-17 18:46:49,807 12680 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-03-17 18:46:49,815 12680 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-03-17 18:46:49,852 12680 INFO Potosu odoo.modules.loading: updating modules list 
+2023-03-17 18:46:49,854 12680 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-03-17 18:46:50,635 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:50] "GET /web/static/img/spin.png HTTP/1.1" 200 - - - -
+2023-03-17 18:46:50,724 12680 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-17 18:46:51,209 12680 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-17 18:46:51,209 12680 INFO Potosu odoo.modules.loading: loading 9 modules... 
+2023-03-17 18:46:51,209 12680 INFO Potosu odoo.modules.loading: Loading module library_app (3/9) 
+2023-03-17 18:46:51,285 12680 INFO Potosu odoo.modules.registry: module library_app: creating or updating database tables 
+2023-03-17 18:46:51,407 12680 INFO Potosu odoo.modules.loading: loading library_app/security/library_security.xml 
+2023-03-17 18:46:51,459 12680 INFO Potosu odoo.modules.loading: loading library_app/security/ir.model.access.csv 
+2023-03-17 18:46:51,501 12680 INFO Potosu odoo.modules.loading: loading library_app/views/book_view.xml 
+2023-03-17 18:46:51,587 12680 INFO Potosu odoo.modules.loading: loading library_app/views/library_menu.xml 
+2023-03-17 18:46:51,607 12680 INFO Potosu odoo.modules.loading: loading library_app/views/book_list_template.xml 
+2023-03-17 18:46:51,664 12680 INFO Potosu odoo.modules.loading: Module library_app loaded in 0.45s, 173 queries 
+2023-03-17 18:46:51,670 12680 INFO Potosu odoo.modules.loading: 9 modules loaded in 0.46s, 173 queries (+0 extra) 
+2023-03-17 18:46:51,797 12680 INFO Potosu odoo.modules.registry: verifying fields for every extended model 
+2023-03-17 18:46:51,992 12680 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-03-17 18:46:51,994 12680 INFO Potosu odoo.modules.registry: Registry loaded in 2.204s 
+2023-03-17 18:46:51,995 12680 INFO Potosu odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-03-17 18:46:52,002 12680 INFO Potosu odoo.modules.registry: Registry changed, signaling through the database 
+2023-03-17 18:46:52,005 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:52] "POST /web/dataset/call_button HTTP/1.1" 200 - 2598 1.210 2.860
+2023-03-17 18:46:52,339 12680 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-03-17 18:46:53,614 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:53] "GET /web HTTP/1.1" 200 - 182 0.207 1.073
+2023-03-17 18:46:53,657 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:53] "GET /web/assets/37-2c59a9f/web.assets_common.min.css HTTP/1.1" 200 - 2 0.004 0.017
+2023-03-17 18:46:53,658 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:53] "GET /web/assets/38-75ed68c/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.002 0.018
+2023-03-17 18:46:53,986 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:53] "GET /web/assets/41-b143b56/web.assets_backend_prod_only.min.js HTTP/1.1" 304 - 2 0.002 0.036
+2023-03-17 18:46:53,986 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:53] "GET /web/assets/40-75ed68c/web.assets_backend.min.js HTTP/1.1" 304 - 2 0.003 0.038
+2023-03-17 18:46:53,989 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:53] "GET /web/assets/39-2c59a9f/web.assets_common.min.js HTTP/1.1" 304 - 2 0.002 0.037
+2023-03-17 18:46:53,993 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:53] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 5 0.027 0.014
+2023-03-17 18:46:53,999 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:53] "GET /web/webclient/load_menus/3c527b36b846a62906f0d0189f2f573b1aea23c97b11812aff2782330f17ec30 HTTP/1.1" 200 - 1 0.000 0.007
+2023-03-17 18:46:54,110 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:54] "GET /web/webclient/qweb/7388709eb1f20938d89010e5ccec4c2e8fbbe1f60b085b70abbcb923589860a6?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.000 0.114
+2023-03-17 18:46:54,629 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:54] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 3 0.003 0.012
+2023-03-17 18:46:54,803 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:54] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - - - -
+2023-03-17 18:46:54,876 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:54] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 3 0.003 0.011
+2023-03-17 18:46:54,945 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:54] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.001 0.007
+2023-03-17 18:46:55,195 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:55] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - - - -
+2023-03-17 18:46:55,389 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:55] "POST /web/action/load HTTP/1.1" 200 - 18 0.021 0.044
+2023-03-17 18:46:55,390 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:55] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.048 0.016
+2023-03-17 18:46:55,457 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:55] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 28 0.042 0.018
+2023-03-17 18:46:55,801 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:55] "POST /web/dataset/search_read HTTP/1.1" 200 - 7 0.014 0.011
+2023-03-17 18:46:56,048 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:46:56] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.005
+2023-03-17 18:47:00,056 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:00] "POST /web/dataset/call_kw/library.book/onchange HTTP/1.1" 200 - 3 0.018 0.010
+2023-03-17 18:47:00,299 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:00] "GET /web/static/img/placeholder.png HTTP/1.1" 200 - - - -
+2023-03-17 18:47:00,418 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:00] "GET /web/static/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-03-17 18:47:08,081 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:08] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 8 0.006 0.007
+2023-03-17 18:47:11,483 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:11] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.000 0.016
+2023-03-17 18:47:11,726 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:11] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 2 0.000 0.000
+2023-03-17 18:47:12,258 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:12] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 2 0.000 0.000
+2023-03-17 18:47:13,752 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:13] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 2 0.001 0.004
+2023-03-17 18:47:14,368 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:14] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 2 0.000 0.000
+2023-03-17 18:47:14,941 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:14] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 2 0.000 0.000
+2023-03-17 18:47:15,191 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:15] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 2 0.000 0.000
+2023-03-17 18:47:15,217 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:15] "POST /web/dataset/call_kw/res.partner/name_create HTTP/1.1" 200 - 14 0.031 0.011
+2023-03-17 18:47:15,523 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:15] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 2 0.000 0.000
+2023-03-17 18:47:18,455 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:18] "POST /web/dataset/call_kw/library.book/create HTTP/1.1" 200 - 10 0.006 0.014
+2023-03-17 18:47:18,775 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:18] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 5 0.006 0.006
+2023-03-17 18:47:19,051 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:19] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 2 0.000 0.006
+2023-03-17 18:47:21,329 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:21] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.003 0.008
+2023-03-17 18:47:24,726 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:24] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.003 0.004
+2023-03-17 18:47:26,301 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:26] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.000 0.000
+2023-03-17 18:47:26,876 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:26] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.000 0.000
+2023-03-17 18:47:28,375 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:28] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.000 0.000
+2023-03-17 18:47:28,631 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:28] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 2 0.000 0.000
+2023-03-17 18:47:29,499 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:29] "POST /web/dataset/call_kw/res.partner/name_create HTTP/1.1" 200 - 6 0.000 0.000
+2023-03-17 18:47:29,819 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:29] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 2 0.000 0.000
+2023-03-17 18:47:34,397 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:34] "POST /web/dataset/call_kw/library.book/write HTTP/1.1" 200 - 14 0.008 0.016
+2023-03-17 18:47:34,727 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:34] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 5 0.001 0.009
+2023-03-17 18:47:34,961 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:34] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 2 0.000 0.000
+2023-03-17 18:47:40,677 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:40] "GET /web/static/src/legacy/xml/dialog.xml?debug=1679078860661 HTTP/1.1" 200 - - - -
+2023-03-17 18:47:43,388 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:43] "POST /web/dataset/call_kw/library.book/action_archive HTTP/1.1" 200 - 4 0.002 0.010
+2023-03-17 18:47:43,649 12680 INFO Potosu odoo.addons.base.models.ir_rule: Access Denied by record rules for operation: read on record ids: [1], uid: 2, model: library.book 
+2023-03-17 18:47:43,669 12680 WARNING Potosu odoo.http: Due to security restrictions, you are not allowed to access 'Book' (library.book) records.
+
+Records: A court of thorns and roses (id=1)
+User: Administrator (id=2)
+
+This restriction is due to the following rules:
+- Library Book User Access
+
+Contact your administrator to request access if necessary. 
+2023-03-17 18:47:43,706 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:43] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 23 0.016 0.048
+2023-03-17 18:47:49,191 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:49] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.000 0.005
+2023-03-17 18:47:53,378 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:53] "POST /web/dataset/call_kw/library.book/onchange HTTP/1.1" 200 - 2 0.002 0.004
+2023-03-17 18:47:55,326 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:47:55] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.001 0.005
+2023-03-17 18:54:09,943 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:09] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.002 0.008
+2023-03-17 18:54:11,677 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:11] "POST /web/action/load HTTP/1.1" 200 - 28 0.016 0.026
+2023-03-17 18:54:12,075 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:12] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 51 0.049 0.039
+2023-03-17 18:54:12,289 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:12] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.031 0.010
+2023-03-17 18:54:12,410 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:12] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.008
+2023-03-17 18:54:12,604 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:12] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:12,774 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:12] "GET /project/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:12,779 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:12] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:12,782 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:12] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:12,783 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:12] "GET /stock/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:12,783 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:12] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:12,917 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:12] "GET /hr_expense/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,081 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,086 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /website_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,087 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /mrp/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,090 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,091 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /purchase/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,226 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /base/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,393 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /sale_management/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,393 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /account/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,393 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /crm/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,393 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,403 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /website/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,548 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,720 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /library_app/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,742 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /base/static/img/icons/sign.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,743 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /hr/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,745 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /maintenance/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,747 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:13,879 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:13] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:14,055 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:14,062 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:14,084 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "GET /website_slides/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:14,118 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "GET /base/static/img/icons/planning.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:14,120 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "GET /website_event/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:14,188 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "GET /mail/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:14,372 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "GET /contacts/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:14,377 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:14,401 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "GET /calendar/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:14,429 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "GET /fleet/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:14,430 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:14,525 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "POST /web/action/load HTTP/1.1" 200 - 16 0.017 0.012
+2023-03-17 18:54:14,692 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:14,703 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 - 11 0.007 0.009
+2023-03-17 18:54:14,713 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "GET /website_blog/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:14,753 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "GET /im_livechat/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:14,759 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 3 0.005 0.006
+2023-03-17 18:54:14,836 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:14] "GET /base/static/img/icons/appointment.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,007 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /survey/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,016 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,016 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /board/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,079 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /repair/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,081 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,150 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,323 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,323 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /note/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,323 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /website_forum/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,388 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /hr_skills/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,388 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /base/static/img/icons/voip.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,455 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /lunch/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,642 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,642 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,656 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 6 0.012 0.002
+2023-03-17 18:54:15,708 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /hr_contract/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,708 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.000 0.000
+2023-03-17 18:54:15,780 12680 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-17 18:54:15,954 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,962 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:15,968 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:15] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:16,031 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:16] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:16,031 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:16] "GET /payment_mollie/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:16,270 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:16] "GET /payment_ogone/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:16,272 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:16] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:16,277 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:16] "GET /payment_payulatam/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:16,349 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:16] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:16,349 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:16] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:16,591 12680 INFO ? werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:16] "GET /payment_sips/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-17 18:54:16,725 12680 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-17 18:54:17,272 12680 INFO Potosu werkzeug: 127.0.0.1 - - [17/Mar/2023 18:54:17] "POST /web/dataset/call_button HTTP/1.1" 200 - 1057 0.492 1.003
+2023-03-17 18:55:59,606 12680 INFO ? odoo.service.server: Initiating shutdown 
+2023-03-17 18:55:59,606 12680 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-03-17 18:55:59,637 12680 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 8 connections  
+2023-03-17 23:35:21,973 7316 INFO ? odoo: Odoo version 15.0-20230206 
+2023-03-17 23:35:21,974 7316 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-03-17 23:35:21,974 7316 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\custom_modules'] 
+2023-03-17 23:35:21,975 7316 INFO ? odoo: database: openpg@localhost:5432 
+2023-03-17 23:35:22,439 7316 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-03-17 23:35:23,133 7316 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-B922KQD:8069 
+2023-03-17 23:36:13,185 7316 INFO ? odoo.service.server: Initiating shutdown 
+2023-03-17 23:36:13,185 7316 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-03-17 23:36:13,502 7316 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2023-03-18 13:56:40,215 7876 INFO ? odoo: Odoo version 15.0-20230206 
+2023-03-18 13:56:40,216 7876 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-03-18 13:56:40,216 7876 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\custom_modules'] 
+2023-03-18 13:56:40,216 7876 INFO ? odoo: database: openpg@localhost:5432 
+2023-03-18 13:56:40,662 7876 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-03-18 13:56:41,409 7876 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-B922KQD:8069 
+2023-03-18 18:27:30,905 7876 INFO ? odoo.service.server: Initiating shutdown 
+2023-03-18 18:27:30,907 7876 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-03-18 18:27:31,118 7876 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2023-03-18 18:27:33,966 10864 INFO ? odoo: Odoo version 15.0-20230206 
+2023-03-18 18:27:33,966 10864 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-03-18 18:27:33,966 10864 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\custom_modules'] 
+2023-03-18 18:27:33,966 10864 INFO ? odoo: database: openpg@localhost:5432 
+2023-03-18 18:27:34,215 10864 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-03-18 18:27:34,619 10864 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-B922KQD.8F.pointe.orld.fl.wtsky.net:8069 
+2023-03-18 18:27:43,414 10864 INFO ? odoo.http: HTTP Configuring static files 
+2023-03-18 18:27:43,680 10864 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-03-18 18:27:43,686 10864 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-03-18 18:27:43,693 10864 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-18 18:27:43,699 10864 INFO Potosu odoo.modules.loading: loading 9 modules... 
+2023-03-18 18:27:43,706 10864 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-18 18:27:43,842 10864 INFO Potosu odoo.modules.loading: 9 modules loaded in 0.14s, 0 queries (+0 extra) 
+2023-03-18 18:27:43,902 10864 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-03-18 18:27:43,914 10864 INFO Potosu odoo.modules.registry: Registry loaded in 0.477s 
+2023-03-18 18:27:43,915 10864 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-03-18 18:27:45,345 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:45] "GET /web HTTP/1.1" 200 - 197 0.400 1.515
+2023-03-18 18:27:45,390 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:45] "GET /web/assets/37-2c59a9f/web.assets_common.min.css HTTP/1.1" 200 - 2 0.001 0.015
+2023-03-18 18:27:45,936 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:45] "GET /web/assets/38-75ed68c/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.002 0.256
+2023-03-18 18:27:45,951 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:45] "GET /web/webclient/load_menus/3c527b36b846a62906f0d0189f2f573b1aea23c97b11812aff2782330f17ec30 HTTP/1.1" 200 - 1 0.002 0.262
+2023-03-18 18:27:45,965 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:45] "GET /web/assets/41-b143b56/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.008 0.272
+2023-03-18 18:27:46,025 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:46] "GET /web/webclient/qweb/7388709eb1f20938d89010e5ccec4c2e8fbbe1f60b085b70abbcb923589860a6?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.001 0.316
+2023-03-18 18:27:46,185 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:46] "GET /web/assets/39-2c59a9f/web.assets_common.min.js HTTP/1.1" 200 - 2 0.010 0.494
+2023-03-18 18:27:46,201 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:46] "GET /web/assets/40-75ed68c/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.009 0.512
+2023-03-18 18:27:46,285 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:46] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 5 0.021 0.006
+2023-03-18 18:27:46,685 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:46] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 3 0.012 0.005
+2023-03-18 18:27:46,933 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:46] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 3 0.004 0.002
+2023-03-18 18:27:46,995 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:46] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.000 0.000
+2023-03-18 18:27:47,107 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:47] "POST /web/action/load HTTP/1.1" 200 - 28 0.078 0.034
+2023-03-18 18:27:47,266 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:47] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - - - -
+2023-03-18 18:27:47,434 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:47] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 16 0.036 0.014
+2023-03-18 18:27:47,478 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:47] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 57 0.068 0.042
+2023-03-18 18:27:47,536 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:47] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.029 0.013
+2023-03-18 18:27:47,866 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:47] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.009 0.005
+2023-03-18 18:27:48,115 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /mrp/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,247 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,248 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /stock/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,248 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,250 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /purchase/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,251 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,428 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,562 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /hr_expense/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,562 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /website_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,562 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,571 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,572 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /project/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,742 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /base/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,882 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /sale_management/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,884 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /crm/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,885 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /account/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,886 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:48,887 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:48] "GET /website/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,056 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,198 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,201 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /maintenance/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,201 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /hr/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,202 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /base/static/img/icons/sign.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,204 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /library_app/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-03-18 18:27:49,377 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,525 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,525 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,533 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /website_slides/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,533 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /base/static/img/icons/planning.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,534 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /website_event/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,687 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /mail/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,835 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /contacts/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,842 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,844 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,844 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /calendar/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:49,846 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:49] "GET /fleet/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,015 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "POST /web/action/load HTTP/1.1" 200 - 16 0.016 0.000
+2023-03-18 18:27:50,156 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 - 11 0.004 0.009
+2023-03-18 18:27:50,163 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,163 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /im_livechat/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,163 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /website_blog/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,165 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /base/static/img/icons/appointment.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,342 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 3 0.006 0.004
+2023-03-18 18:27:50,474 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /survey/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,474 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,474 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /board/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,482 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /repair/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,482 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,656 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,799 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,799 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /note/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,800 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /website_forum/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,803 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /base/static/img/icons/voip.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,804 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /hr_skills/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:50,963 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:50] "GET /lunch/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:51,111 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:51] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:51,111 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:51] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:51,117 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:51] "GET /hr_contract/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:51,118 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:51] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:51,118 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:51] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:51,270 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:51] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:51,431 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:51] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:51,431 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:51] "GET /payment_mollie/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:51,437 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:51] "GET /payment_ogone/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:51,438 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:51] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:51,438 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:51] "GET /payment_payulatam/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:51,603 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:51] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 6 0.026 0.000
+2023-03-18 18:27:51,745 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:51] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:51,750 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:51] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.004 0.004
+2023-03-18 18:27:51,788 10864 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-18 18:27:51,926 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:51] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:52,065 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:52] "GET /payment_sips/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-03-18 18:27:52,295 10864 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-18 18:27:52,950 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:27:52] "POST /web/dataset/call_button HTTP/1.1" 200 - 1057 0.358 0.808
+2023-03-18 18:28:00,727 10864 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['eCommerce'] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-18 18:28:00,727 10864 INFO Potosu odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2023-03-18 18:28:00,742 10864 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['eCommerce'] to user wrightnicole2@yahoo.com #2 via 127.0.0.1 
+2023-03-18 18:28:00,991 10864 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-03-18 18:28:00,991 10864 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-03-18 18:28:01,017 10864 INFO Potosu odoo.modules.loading: updating modules list 
+2023-03-18 18:28:01,018 10864 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-03-18 18:28:01,409 10864 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-18 18:28:01,940 10864 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-03-18 18:28:01,940 10864 INFO Potosu odoo.modules.loading: loading 9 modules... 
+2023-03-18 18:28:01,955 10864 INFO Potosu odoo.modules.loading: 9 modules loaded in 0.02s, 0 queries (+0 extra) 
+2023-03-18 18:28:01,972 10864 INFO Potosu odoo.modules.loading: loading 50 modules... 
+2023-03-18 18:28:01,972 10864 INFO Potosu odoo.modules.loading: Loading module social_media (4/50) 
+2023-03-18 18:28:02,035 10864 INFO Potosu odoo.modules.registry: module social_media: creating or updating database tables 
+2023-03-18 18:28:02,246 10864 INFO Potosu odoo.modules.loading: loading social_media/views/res_company_views.xml 
+2023-03-18 18:28:02,301 10864 INFO Potosu odoo.modules.loading: Module social_media loaded in 0.33s, 71 queries 
+2023-03-18 18:28:02,301 10864 INFO Potosu odoo.modules.loading: Loading module uom (5/50) 
+2023-03-18 18:28:02,379 10864 INFO Potosu odoo.modules.registry: module uom: creating or updating database tables 
+2023-03-18 18:28:02,509 10864 INFO Potosu odoo.modules.loading: loading uom/data/uom_data.xml 
+2023-03-18 18:28:02,571 10864 INFO Potosu odoo.modules.loading: loading uom/security/uom_security.xml 
+2023-03-18 18:28:02,618 10864 INFO Potosu odoo.modules.loading: loading uom/security/ir.model.access.csv 
+2023-03-18 18:28:02,649 10864 INFO Potosu odoo.modules.loading: loading uom/views/uom_uom_views.xml 
+2023-03-18 18:28:02,745 10864 INFO Potosu odoo.modules.loading: Module uom loaded in 0.44s, 279 queries 
+2023-03-18 18:28:02,745 10864 INFO Potosu odoo.modules.loading: Loading module base_setup (9/50) 
+2023-03-18 18:28:02,805 10864 INFO Potosu odoo.modules.registry: module base_setup: creating or updating database tables 
+2023-03-18 18:28:02,881 10864 INFO Potosu odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2023-03-18 18:28:02,885 10864 INFO Potosu odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2023-03-18 18:28:02,932 10864 INFO Potosu odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2023-03-18 18:28:02,964 10864 INFO Potosu odoo.modules.loading: Module base_setup loaded in 0.22s, 169 queries 
+2023-03-18 18:28:02,964 10864 INFO Potosu odoo.modules.loading: Loading module bus (10/50) 
+2023-03-18 18:28:03,011 10864 INFO Potosu odoo.modules.registry: module bus: creating or updating database tables 
+2023-03-18 18:28:03,105 10864 INFO Potosu odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2023-03-18 18:28:03,136 10864 INFO Potosu odoo.modules.loading: Module bus loaded in 0.17s, 102 queries 
+2023-03-18 18:28:03,136 10864 INFO Potosu odoo.modules.loading: Loading module http_routing (11/50) 
+2023-03-18 18:28:03,183 10864 INFO Potosu odoo.modules.registry: module http_routing: creating or updating database tables 
+2023-03-18 18:28:03,198 10864 INFO Potosu odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
+2023-03-18 18:28:03,261 10864 INFO Potosu odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
+2023-03-18 18:28:03,308 10864 INFO Potosu odoo.modules.loading: Module http_routing loaded in 0.17s, 104 queries 
+2023-03-18 18:28:03,308 10864 INFO Potosu odoo.modules.loading: Loading module resource (12/50) 
+2023-03-18 18:28:03,419 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:28:03] "GET /web/static/img/spin.png HTTP/1.1" 200 - - - -
+2023-03-18 18:28:03,746 10864 INFO Potosu odoo.modules.registry: module resource: creating or updating database tables 
+2023-03-18 18:28:03,984 10864 INFO Potosu odoo.modules.loading: loading resource/data/resource_data.xml 
+2023-03-18 18:28:04,033 10864 INFO Potosu odoo.modules.loading: loading resource/security/ir.model.access.csv 
+2023-03-18 18:28:04,048 10864 INFO Potosu odoo.modules.loading: loading resource/security/resource_security.xml 
+2023-03-18 18:28:04,080 10864 INFO Potosu odoo.modules.loading: loading resource/views/resource_views.xml 
+2023-03-18 18:28:04,206 10864 INFO Potosu odoo.modules.loading: Module resource loaded in 0.90s, 521 queries 
+2023-03-18 18:28:04,206 10864 INFO Potosu odoo.modules.loading: Loading module utm (13/50) 
+2023-03-18 18:28:04,302 10864 INFO Potosu odoo.modules.registry: module utm: creating or updating database tables 
+2023-03-18 18:28:04,475 10864 INFO Potosu odoo.modules.loading: loading utm/data/utm_data.xml 
+2023-03-18 18:28:04,534 10864 INFO Potosu odoo.modules.loading: loading utm/views/utm_campaign_views.xml 
+2023-03-18 18:28:04,571 10864 INFO Potosu odoo.modules.loading: loading utm/views/utm_views.xml 
+2023-03-18 18:28:04,651 10864 INFO Potosu odoo.modules.loading: loading utm/security/ir.model.access.csv 
+2023-03-18 18:28:04,692 10864 INFO Potosu odoo.modules.loading: Module utm loaded in 0.48s, 384 queries 
+2023-03-18 18:28:04,692 10864 INFO Potosu odoo.modules.loading: Loading module google_recaptcha (17/50) 
+2023-03-18 18:28:04,777 10864 INFO Potosu odoo.modules.registry: module google_recaptcha: creating or updating database tables 
+2023-03-18 18:28:04,808 10864 INFO Potosu odoo.modules.loading: loading google_recaptcha/views/res_config_settings_view.xml 
+2023-03-18 18:28:04,850 10864 INFO Potosu odoo.modules.loading: Module google_recaptcha loaded in 0.16s, 71 queries 
+2023-03-18 18:28:04,850 10864 INFO Potosu odoo.modules.loading: Loading module iap (18/50) 
+2023-03-18 18:28:04,968 10864 INFO Potosu odoo.modules.registry: module iap: creating or updating database tables 
+2023-03-18 18:28:05,048 10864 INFO Potosu odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2023-03-18 18:28:05,064 10864 INFO Potosu odoo.modules.loading: loading iap/security/ir_rule.xml 
+2023-03-18 18:28:05,080 10864 INFO Potosu odoo.modules.loading: loading iap/views/iap_views.xml 
+2023-03-18 18:28:05,123 10864 INFO Potosu odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2023-03-18 18:28:05,157 10864 INFO Potosu odoo.modules.loading: Module iap loaded in 0.31s, 157 queries 
+2023-03-18 18:28:05,157 10864 INFO Potosu odoo.modules.loading: Loading module mail (19/50) 
+2023-03-18 18:28:06,287 10864 INFO Potosu odoo.modules.registry: module mail: creating or updating database tables 
+2023-03-18 18:28:07,520 10864 INFO Potosu odoo.models: Storing computed values of res.partner.email_normalized 
+2023-03-18 18:28:08,415 10864 INFO Potosu odoo.modules.loading: loading mail/data/mail_groups.xml 
+2023-03-18 18:28:08,460 10864 INFO Potosu odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml 
+2023-03-18 18:28:08,461 10864 INFO Potosu odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml 
+2023-03-18 18:28:08,492 10864 INFO Potosu odoo.modules.loading: loading mail/wizard/mail_resend_cancel_views.xml 
+2023-03-18 18:28:08,508 10864 INFO Potosu odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2023-03-18 18:28:08,526 10864 INFO Potosu odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
+2023-03-18 18:28:08,541 10864 INFO Potosu odoo.modules.loading: loading mail/wizard/mail_wizard_invite_views.xml 
+2023-03-18 18:28:08,541 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2023-03-18 18:28:08,572 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_tracking_views.xml 
+2023-03-18 18:28:08,588 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_notification_views.xml 
+2023-03-18 18:28:08,612 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2023-03-18 18:28:08,637 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2023-03-18 18:28:08,668 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2023-03-18 18:28:08,688 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_ice_server_views.xml 
+2023-03-18 18:28:08,701 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_channel_partner_views.xml 
+2023-03-18 18:28:08,716 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_channel_rtc_session_views.xml 
+2023-03-18 18:28:08,732 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_channel_views.xml 
+2023-03-18 18:28:08,773 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
+2023-03-18 18:28:08,792 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2023-03-18 18:28:08,855 10864 INFO Potosu odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2023-03-18 18:28:08,874 10864 INFO Potosu odoo.modules.loading: loading mail/data/res_partner_data.xml 
+2023-03-18 18:28:08,905 10864 INFO Potosu odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml 
+2023-03-18 18:28:08,936 10864 INFO Potosu odoo.modules.loading: loading mail/data/mail_templates.xml 
+2023-03-18 18:28:08,982 10864 INFO Potosu odoo.modules.loading: loading mail/data/mail_channel_data.xml 
+2023-03-18 18:28:09,030 10864 INFO Potosu odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2023-03-18 18:28:09,056 10864 INFO Potosu odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2023-03-18 18:28:09,089 10864 INFO Potosu odoo.modules.loading: loading mail/security/mail_security.xml 
+2023-03-18 18:28:09,237 10864 INFO Potosu odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2023-03-18 18:28:09,368 10864 INFO Potosu odoo.modules.loading: loading mail/views/discuss_public_templates.xml 
+2023-03-18 18:28:09,396 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2023-03-18 18:28:09,453 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_guest_views.xml 
+2023-03-18 18:28:09,461 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml 
+2023-03-18 18:28:09,477 10864 INFO Potosu odoo.modules.loading: loading mail/views/res_users_views.xml 
+2023-03-18 18:28:09,501 10864 INFO Potosu odoo.modules.loading: loading mail/views/res_users_settings_views.xml 
+2023-03-18 18:28:09,529 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2023-03-18 18:28:09,557 10864 INFO Potosu odoo.modules.loading: loading mail/views/ir_actions_server_views.xml 
+2023-03-18 18:28:09,561 10864 INFO Potosu odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2023-03-18 18:28:09,604 10864 INFO Potosu odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2023-03-18 18:28:09,677 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2023-03-18 18:28:09,701 10864 INFO Potosu odoo.modules.loading: loading mail/views/mail_menus.xml 
+2023-03-18 18:28:09,898 10864 INFO Potosu odoo.modules.loading: Module mail loaded in 4.74s, 3322 queries 
+2023-03-18 18:28:09,898 10864 INFO Potosu odoo.modules.loading: Loading module web_unsplash (20/50) 
+2023-03-18 18:28:10,140 10864 INFO Potosu odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2023-03-18 18:28:10,273 10864 INFO Potosu odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2023-03-18 18:28:10,388 10864 INFO Potosu odoo.modules.loading: Module web_unsplash loaded in 0.49s, 88 queries 
+2023-03-18 18:28:10,388 10864 INFO Potosu odoo.modules.loading: Loading module analytic (21/50) 
+2023-03-18 18:28:10,534 10864 INFO Potosu odoo.modules.registry: module analytic: creating or updating database tables 
+2023-03-18 18:28:10,860 10864 INFO Potosu odoo.modules.loading: loading analytic/security/analytic_security.xml 
+2023-03-18 18:28:10,906 10864 INFO Potosu odoo.modules.loading: loading analytic/security/ir.model.access.csv 
+2023-03-18 18:28:10,929 10864 INFO Potosu odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
+2023-03-18 18:28:11,073 10864 INFO Potosu odoo.modules.loading: Module analytic loaded in 0.68s, 409 queries 
+2023-03-18 18:28:11,074 10864 INFO Potosu odoo.modules.loading: Loading module auth_signup (22/50) 
+2023-03-18 18:28:11,249 10864 INFO Potosu odoo.modules.registry: module auth_signup: creating or updating database tables 
+2023-03-18 18:28:11,350 10864 INFO Potosu odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml 
+2023-03-18 18:28:11,365 10864 INFO Potosu odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2023-03-18 18:28:11,382 10864 INFO Potosu odoo.modules.loading: loading auth_signup/data/mail_template_data.xml 
+2023-03-18 18:28:11,398 10864 INFO Potosu odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2023-03-18 18:28:11,436 10864 INFO Potosu odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2023-03-18 18:28:11,462 10864 INFO Potosu odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2023-03-18 18:28:11,493 10864 INFO Potosu odoo.modules.loading: Module auth_signup loaded in 0.42s, 191 queries 
+2023-03-18 18:28:11,493 10864 INFO Potosu odoo.modules.loading: Loading module auth_totp_mail (23/50) 
+2023-03-18 18:28:11,622 10864 INFO Potosu odoo.modules.registry: module auth_totp_mail: creating or updating database tables 
+2023-03-18 18:28:11,653 10864 INFO Potosu odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml 
+2023-03-18 18:28:11,698 10864 INFO Potosu odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml 
+2023-03-18 18:28:11,702 10864 INFO Potosu odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml 
+2023-03-18 18:28:11,749 10864 INFO Potosu odoo.modules.loading: Module auth_totp_mail loaded in 0.26s, 94 queries 
+2023-03-18 18:28:11,749 10864 INFO Potosu odoo.modules.loading: Loading module fetchmail (24/50) 
+2023-03-18 18:28:11,866 10864 INFO Potosu odoo.modules.registry: module fetchmail: creating or updating database tables 
+2023-03-18 18:28:11,955 10864 INFO Potosu odoo.modules.loading: loading fetchmail/data/fetchmail_data.xml 
+2023-03-18 18:28:11,971 10864 INFO Potosu odoo.modules.loading: loading fetchmail/security/ir.model.access.csv 
+2023-03-18 18:28:11,987 10864 INFO Potosu odoo.modules.loading: loading fetchmail/views/fetchmail_views.xml 
+2023-03-18 18:28:12,027 10864 INFO Potosu odoo.modules.loading: loading fetchmail/views/mail_mail_views.xml 
+2023-03-18 18:28:12,035 10864 INFO Potosu odoo.modules.loading: loading fetchmail/views/res_config_settings_views.xml 
+2023-03-18 18:28:12,082 10864 INFO Potosu odoo.modules.loading: Module fetchmail loaded in 0.33s, 189 queries 
+2023-03-18 18:28:12,082 10864 INFO Potosu odoo.modules.loading: Loading module iap_mail (25/50) 
+2023-03-18 18:28:12,161 10864 INFO Potosu odoo.modules.loading: loading iap_mail/data/mail_templates.xml 
+2023-03-18 18:28:12,209 10864 INFO Potosu odoo.modules.loading: Module iap_mail loaded in 0.13s, 28 queries 
+2023-03-18 18:28:12,209 10864 INFO Potosu odoo.modules.loading: Loading module mail_bot (26/50) 
+2023-03-18 18:28:12,364 10864 INFO Potosu odoo.modules.registry: module mail_bot: creating or updating database tables 
+2023-03-18 18:28:12,449 10864 INFO Potosu odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
+2023-03-18 18:28:12,476 10864 INFO Potosu odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
+2023-03-18 18:28:12,503 10864 INFO Potosu odoo.modules.loading: Module mail_bot loaded in 0.29s, 138 queries 
+2023-03-18 18:28:12,503 10864 INFO Potosu odoo.modules.loading: Loading module phone_validation (27/50) 
+2023-03-18 18:28:12,798 10864 INFO Potosu odoo.modules.registry: module phone_validation: creating or updating database tables 
+2023-03-18 18:28:12,954 10864 INFO Potosu odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2023-03-18 18:28:12,976 10864 INFO Potosu odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2023-03-18 18:28:13,040 10864 INFO Potosu odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml 
+2023-03-18 18:28:13,084 10864 INFO Potosu odoo.modules.loading: Module phone_validation loaded in 0.58s, 179 queries 
+2023-03-18 18:28:13,084 10864 INFO Potosu odoo.modules.loading: Loading module product (28/50) 
+2023-03-18 18:28:14,704 10864 INFO Potosu odoo.modules.registry: module product: creating or updating database tables 
+2023-03-18 18:28:15,598 10864 INFO Potosu odoo.modules.loading: loading product/data/product_data.xml 
+2023-03-18 18:28:15,639 10864 INFO Potosu odoo.modules.loading: loading product/security/product_security.xml 
+2023-03-18 18:28:15,699 10864 INFO Potosu odoo.modules.loading: loading product/security/ir.model.access.csv 
+2023-03-18 18:28:15,752 10864 INFO Potosu odoo.modules.loading: loading product/wizard/product_label_layout_views.xml 
+2023-03-18 18:28:15,774 10864 INFO Potosu odoo.modules.loading: loading product/views/res_config_settings_views.xml 
+2023-03-18 18:28:15,837 10864 INFO Potosu odoo.modules.loading: loading product/views/product_attribute_views.xml 
+2023-03-18 18:28:15,901 10864 INFO Potosu odoo.modules.loading: loading product/views/product_views.xml 
+2023-03-18 18:28:16,125 10864 INFO Potosu odoo.modules.loading: loading product/views/product_template_views.xml 
+2023-03-18 18:28:16,173 10864 INFO Potosu odoo.modules.loading: loading product/views/product_pricelist_views.xml 
+2023-03-18 18:28:16,270 10864 INFO Potosu odoo.modules.loading: loading product/views/res_partner_views.xml 
+2023-03-18 18:28:16,303 10864 INFO Potosu odoo.modules.loading: loading product/report/product_reports.xml 
+2023-03-18 18:28:16,345 10864 INFO Potosu odoo.modules.loading: loading product/report/product_product_templates.xml 
+2023-03-18 18:28:16,396 10864 INFO Potosu odoo.modules.loading: loading product/report/product_template_templates.xml 
+2023-03-18 18:28:16,420 10864 INFO Potosu odoo.modules.loading: loading product/report/product_packaging.xml 
+2023-03-18 18:28:16,434 10864 INFO Potosu odoo.modules.loading: loading product/report/product_pricelist_report_templates.xml 
+2023-03-18 18:28:16,484 10864 INFO Potosu odoo.modules.loading: Module product loaded in 3.40s, 1393 queries 
+2023-03-18 18:28:16,484 10864 INFO Potosu odoo.modules.loading: Loading module rating (29/50) 
+2023-03-18 18:28:16,774 10864 INFO Potosu odoo.modules.registry: module rating: creating or updating database tables 
+2023-03-18 18:28:17,166 10864 INFO Potosu odoo.modules.loading: loading rating/views/rating_rating_views.xml 
+2023-03-18 18:28:17,267 10864 INFO Potosu odoo.modules.loading: loading rating/views/rating_template.xml 
+2023-03-18 18:28:17,304 10864 INFO Potosu odoo.modules.loading: loading rating/views/mail_message_views.xml 
+2023-03-18 18:28:17,336 10864 INFO Potosu odoo.modules.loading: loading rating/security/ir.model.access.csv 
+2023-03-18 18:28:17,402 10864 INFO Potosu odoo.modules.loading: Module rating loaded in 0.92s, 310 queries 
+2023-03-18 18:28:17,402 10864 INFO Potosu odoo.modules.loading: Loading module sales_team (30/50) 
+2023-03-18 18:28:17,624 10864 INFO Potosu odoo.modules.registry: module sales_team: creating or updating database tables 
+2023-03-18 18:28:17,704 10864 INFO Potosu odoo.models: Storing computed values of res.users.sale_team_id 
+2023-03-18 18:28:17,866 10864 INFO Potosu odoo.modules.loading: loading sales_team/security/sales_team_security.xml 
+2023-03-18 18:28:17,957 10864 INFO Potosu odoo.modules.loading: loading sales_team/security/ir.model.access.csv 
+2023-03-18 18:28:17,988 10864 INFO Potosu odoo.modules.loading: loading sales_team/data/crm_team_data.xml 
+2023-03-18 18:28:18,053 10864 INFO Potosu odoo.modules.loading: loading sales_team/views/crm_tag_views.xml 
+2023-03-18 18:28:18,069 10864 INFO Potosu odoo.modules.loading: loading sales_team/views/crm_team_views.xml 
+2023-03-18 18:28:18,118 10864 INFO Potosu odoo.modules.loading: loading sales_team/views/crm_team_member_views.xml 
+2023-03-18 18:28:18,165 10864 INFO Potosu odoo.modules.loading: loading sales_team/views/mail_activity_views.xml 
+2023-03-18 18:28:18,180 10864 INFO Potosu odoo.modules.loading: loading sales_team/views/res_partner_views.xml 
+2023-03-18 18:28:18,216 10864 INFO Potosu odoo.modules.loading: Module sales_team loaded in 0.81s, 525 queries 
+2023-03-18 18:28:18,216 10864 INFO Potosu odoo.modules.loading: Loading module partner_autocomplete (31/50) 
+2023-03-18 18:28:18,437 10864 INFO Potosu odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
+2023-03-18 18:28:18,577 10864 INFO Potosu odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
+2023-03-18 18:28:18,666 10864 INFO Potosu odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2023-03-18 18:28:18,713 10864 INFO Potosu odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2023-03-18 18:28:18,730 10864 INFO Potosu odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2023-03-18 18:28:18,766 10864 INFO Potosu odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2023-03-18 18:28:18,814 10864 INFO Potosu odoo.modules.loading: Module partner_autocomplete loaded in 0.60s, 189 queries 
+2023-03-18 18:28:18,815 10864 INFO Potosu odoo.modules.loading: Loading module portal (32/50) 
+2023-03-18 18:28:19,380 10864 INFO Potosu odoo.modules.registry: module portal: creating or updating database tables 
+2023-03-18 18:28:19,667 10864 INFO Potosu odoo.modules.loading: loading portal/security/ir.model.access.csv 
+2023-03-18 18:28:19,694 10864 INFO Potosu odoo.modules.loading: loading portal/data/mail_template_data.xml 
+2023-03-18 18:28:19,706 10864 INFO Potosu odoo.modules.loading: loading portal/data/mail_templates.xml 
+2023-03-18 18:28:19,720 10864 INFO Potosu odoo.modules.loading: loading portal/views/portal_templates.xml 
+2023-03-18 18:28:19,894 10864 INFO Potosu odoo.modules.loading: loading portal/views/res_config_settings_views.xml 
+2023-03-18 18:28:19,926 10864 INFO Potosu odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2023-03-18 18:28:19,954 10864 INFO Potosu odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2023-03-18 18:28:20,007 10864 INFO Potosu odoo.modules.loading: Module portal loaded in 1.19s, 459 queries 
+2023-03-18 18:28:20,007 10864 INFO Potosu odoo.modules.loading: Loading module sms (33/50) 
+2023-03-18 18:28:20,430 10864 INFO Potosu odoo.modules.registry: module sms: creating or updating database tables 
+2023-03-18 18:28:20,655 10864 INFO Potosu odoo.models: Storing computed values of res.partner.phone_sanitized 
+2023-03-18 18:28:20,853 10864 INFO Potosu odoo.addons.phone_validation.tools.phone_validation: The `phonenumbers` Python module is not installed, contact numbers will not be verified. Please install the `phonenumbers` Python module. 
+2023-03-18 18:28:20,907 10864 INFO Potosu odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2023-03-18 18:28:20,930 10864 INFO Potosu odoo.modules.loading: loading sms/wizard/sms_cancel_views.xml 
+2023-03-18 18:28:20,956 10864 INFO Potosu odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2023-03-18 18:28:20,976 10864 INFO Potosu odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2023-03-18 18:28:21,008 10864 INFO Potosu odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2023-03-18 18:28:21,041 10864 INFO Potosu odoo.modules.loading: loading sms/views/ir_actions_views.xml 
+2023-03-18 18:28:21,058 10864 INFO Potosu odoo.modules.loading: loading sms/views/mail_notification_views.xml 
+2023-03-18 18:28:21,098 10864 INFO Potosu odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2023-03-18 18:28:21,137 10864 INFO Potosu odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2023-03-18 18:28:21,176 10864 INFO Potosu odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2023-03-18 18:28:21,208 10864 INFO Potosu odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2023-03-18 18:28:21,238 10864 INFO Potosu odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2023-03-18 18:28:21,264 10864 INFO Potosu odoo.modules.loading: loading sms/security/sms_security.xml 
+2023-03-18 18:28:21,288 10864 INFO Potosu odoo.modules.loading: Module sms loaded in 1.28s, 624 queries 
+2023-03-18 18:28:21,288 10864 INFO Potosu odoo.modules.loading: Loading module snailmail (34/50) 
+2023-03-18 18:28:21,616 10864 INFO Potosu odoo.modules.registry: module snailmail: creating or updating database tables 
+2023-03-18 18:28:21,967 10864 INFO Potosu odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2023-03-18 18:28:21,982 10864 INFO Potosu odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2023-03-18 18:28:22,008 10864 INFO Potosu odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2023-03-18 18:28:22,046 10864 INFO Potosu odoo.modules.loading: loading snailmail/wizard/snailmail_confirm_views.xml 
+2023-03-18 18:28:22,065 10864 INFO Potosu odoo.modules.loading: loading snailmail/wizard/snailmail_letter_cancel_views.xml 
+2023-03-18 18:28:22,087 10864 INFO Potosu odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2023-03-18 18:28:22,110 10864 INFO Potosu odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2023-03-18 18:28:22,131 10864 INFO Potosu odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2023-03-18 18:28:22,181 10864 INFO Potosu odoo.modules.loading: Module snailmail loaded in 0.89s, 376 queries 
+2023-03-18 18:28:22,181 10864 INFO Potosu odoo.modules.loading: Loading module auth_totp_portal (35/50) 
+2023-03-18 18:28:22,383 10864 INFO Potosu odoo.modules.registry: module auth_totp_portal: creating or updating database tables 
+2023-03-18 18:28:22,460 10864 INFO Potosu odoo.modules.loading: loading auth_totp_portal/security/security.xml 
+2023-03-18 18:28:22,593 10864 INFO Potosu odoo.modules.loading: loading auth_totp_portal/views/templates.xml 
+2023-03-18 18:28:22,631 10864 INFO Potosu odoo.modules.loading: Module auth_totp_portal loaded in 0.45s, 75 queries 
+2023-03-18 18:28:22,631 10864 INFO Potosu odoo.modules.loading: Loading module digest (36/50) 
+2023-03-18 18:28:22,883 10864 INFO Potosu odoo.modules.registry: module digest: creating or updating database tables 
+2023-03-18 18:28:23,100 10864 INFO Potosu odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2023-03-18 18:28:23,125 10864 INFO Potosu odoo.modules.loading: loading digest/data/digest_data.xml 
+2023-03-18 18:28:23,169 10864 INFO Potosu odoo.modules.loading: loading digest/data/digest_tips_data.xml 
+2023-03-18 18:28:23,205 10864 INFO Potosu odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2023-03-18 18:28:23,230 10864 INFO Potosu odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2023-03-18 18:28:23,248 10864 INFO Potosu odoo.modules.loading: loading digest/views/digest_views.xml 
+2023-03-18 18:28:23,325 10864 INFO Potosu odoo.modules.loading: loading digest/views/digest_templates.xml 
+2023-03-18 18:28:23,338 10864 INFO Potosu odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2023-03-18 18:28:23,395 10864 INFO Potosu odoo.modules.loading: Module digest loaded in 0.76s, 308 queries 
+2023-03-18 18:28:23,395 10864 INFO Potosu odoo.modules.loading: Loading module portal_rating (37/50) 
+2023-03-18 18:28:23,746 10864 INFO Potosu odoo.modules.registry: module portal_rating: creating or updating database tables 
+2023-03-18 18:28:23,864 10864 INFO Potosu odoo.modules.loading: loading portal_rating/views/rating_views.xml 
+2023-03-18 18:28:23,884 10864 INFO Potosu odoo.modules.loading: loading portal_rating/views/portal_templates.xml 
+2023-03-18 18:28:23,900 10864 INFO Potosu odoo.modules.loading: loading portal_rating/views/rating_templates.xml 
+2023-03-18 18:28:23,930 10864 INFO Potosu odoo.modules.loading: Module portal_rating loaded in 0.54s, 110 queries 
+2023-03-18 18:28:23,931 10864 INFO Potosu odoo.modules.loading: Loading module account (38/50) 
+2023-03-18 18:28:24,955 10864 INFO Potosu odoo.modules.registry: module account: creating or updating database tables 
+2023-03-18 18:28:27,616 10864 INFO Potosu odoo.models: Storing computed values of res.company.invoice_terms_html 
+2023-03-18 18:28:27,616 10864 INFO Potosu odoo.models: Storing computed values of res.company.account_fiscal_country_id 
+2023-03-18 18:28:30,810 10864 INFO Potosu odoo.modules.loading: loading account/security/account_security.xml 
+2023-03-18 18:28:31,166 10864 INFO Potosu odoo.modules.loading: loading account/security/ir.model.access.csv 
+2023-03-18 18:28:31,350 10864 INFO Potosu odoo.modules.loading: loading account/data/data_account_type.xml 
+2023-03-18 18:28:31,403 10864 INFO Potosu odoo.modules.loading: loading account/data/account_data.xml 
+2023-03-18 18:28:31,512 10864 INFO Potosu odoo.modules.loading: loading account/data/digest_data.xml 
+2023-03-18 18:28:31,528 10864 INFO Potosu odoo.modules.loading: loading account/views/account_report.xml 
+2023-03-18 18:28:31,562 10864 INFO Potosu odoo.modules.loading: loading account/data/mail_template_data.xml 
+2023-03-18 18:28:31,583 10864 INFO Potosu odoo.modules.loading: loading account/views/account_payment_view.xml 
+2023-03-18 18:28:31,687 10864 INFO Potosu odoo.modules.loading: loading account/wizard/account_automatic_entry_wizard_views.xml 
+2023-03-18 18:28:31,714 10864 INFO Potosu odoo.modules.loading: loading account/wizard/account_unreconcile_view.xml 
+2023-03-18 18:28:31,737 10864 INFO Potosu odoo.modules.loading: loading account/wizard/account_move_reversal_view.xml 
+2023-03-18 18:28:31,761 10864 INFO Potosu odoo.modules.loading: loading account/wizard/account_resequence_views.xml 
+2023-03-18 18:28:31,781 10864 INFO Potosu odoo.modules.loading: loading account/wizard/account_payment_register_views.xml 
+2023-03-18 18:28:31,790 10864 INFO Potosu odoo.modules.loading: loading account/views/account_move_views.xml 
+2023-03-18 18:28:32,372 10864 INFO Potosu odoo.modules.loading: loading account/wizard/setup_wizards_view.xml 
+2023-03-18 18:28:32,425 10864 INFO Potosu odoo.modules.loading: loading account/wizard/pos_box.xml 
+2023-03-18 18:28:32,444 10864 INFO Potosu odoo.modules.loading: loading account/views/account_account_type_views.xml 
+2023-03-18 18:28:32,476 10864 INFO Potosu odoo.modules.loading: loading account/views/account_account_views.xml 
+2023-03-18 18:28:32,526 10864 INFO Potosu odoo.modules.loading: loading account/views/account_group_views.xml 
+2023-03-18 18:28:32,549 10864 INFO Potosu odoo.modules.loading: loading account/views/account_journal_views.xml 
+2023-03-18 18:28:32,611 10864 INFO Potosu odoo.modules.loading: loading account/views/account_account_tag_views.xml 
+2023-03-18 18:28:32,642 10864 INFO Potosu odoo.modules.loading: loading account/views/account_bank_statement_views.xml 
+2023-03-18 18:28:32,721 10864 INFO Potosu odoo.modules.loading: loading account/views/account_reconcile_model_views.xml 
+2023-03-18 18:28:32,768 10864 INFO Potosu odoo.modules.loading: loading account/views/account_tax_views.xml 
+2023-03-18 18:28:32,832 10864 INFO Potosu odoo.modules.loading: loading account/views/account_full_reconcile_views.xml 
+2023-03-18 18:28:32,845 10864 INFO Potosu odoo.modules.loading: loading account/views/account_payment_term_views.xml 
+2023-03-18 18:28:32,885 10864 INFO Potosu odoo.modules.loading: loading account/views/account_chart_template_views.xml 
+2023-03-18 18:28:32,955 10864 INFO Potosu odoo.modules.loading: loading account/views/res_partner_bank_views.xml 
+2023-03-18 18:28:32,971 10864 INFO Potosu odoo.modules.loading: loading account/views/report_statement.xml 
+2023-03-18 18:28:32,971 10864 INFO Potosu odoo.modules.loading: loading account/views/terms_template.xml 
+2023-03-18 18:28:33,002 10864 INFO Potosu odoo.modules.loading: loading account/wizard/account_validate_move_view.xml 
+2023-03-18 18:28:33,002 10864 INFO Potosu odoo.modules.loading: loading account/views/res_company_views.xml 
+2023-03-18 18:28:33,046 10864 INFO Potosu odoo.modules.loading: loading account/views/product_view.xml 
+2023-03-18 18:28:33,081 10864 INFO Potosu odoo.modules.loading: loading account/views/account_analytic_view.xml 
+2023-03-18 18:28:33,123 10864 INFO Potosu odoo.modules.loading: loading account/views/report_invoice.xml 
+2023-03-18 18:28:33,155 10864 INFO Potosu odoo.modules.loading: loading account/report/account_invoice_report_view.xml 
+2023-03-18 18:28:33,203 10864 INFO Potosu odoo.modules.loading: loading account/views/account_cash_rounding_view.xml 
+2023-03-18 18:28:33,235 10864 INFO Potosu odoo.modules.loading: loading account/wizard/account_report_common_view.xml 
+2023-03-18 18:28:33,235 10864 INFO Potosu odoo.modules.loading: loading account/views/report_journal.xml 
+2023-03-18 18:28:33,262 10864 INFO Potosu odoo.modules.loading: loading account/views/tax_adjustments.xml 
+2023-03-18 18:28:33,271 10864 INFO Potosu odoo.modules.loading: loading account/wizard/wizard_tax_adjustments_view.xml 
+2023-03-18 18:28:33,283 10864 INFO Potosu odoo.modules.loading: loading account/views/ir_module_views.xml 
+2023-03-18 18:28:33,299 10864 INFO Potosu odoo.modules.loading: loading account/views/res_config_settings_views.xml 
+2023-03-18 18:28:33,355 10864 INFO Potosu odoo.modules.loading: loading account/views/partner_view.xml 
+2023-03-18 18:28:33,431 10864 INFO Potosu odoo.modules.loading: loading account/views/account_journal_dashboard_view.xml 
+2023-03-18 18:28:33,457 10864 INFO Potosu odoo.modules.loading: loading account/views/account_portal_templates.xml 
+2023-03-18 18:28:33,488 10864 INFO Potosu odoo.modules.loading: loading account/views/report_payment_receipt_templates.xml 
+2023-03-18 18:28:33,519 10864 INFO Potosu odoo.modules.loading: loading account/views/account_onboarding_templates.xml 
+2023-03-18 18:28:33,570 10864 INFO Potosu odoo.modules.loading: loading account/data/service_cron.xml 
+2023-03-18 18:28:33,594 10864 INFO Potosu odoo.modules.loading: loading account/views/account_incoterms_view.xml 
+2023-03-18 18:28:33,617 10864 INFO Potosu odoo.modules.loading: loading account/data/account_incoterms_data.xml 
+2023-03-18 18:28:33,651 10864 INFO Potosu odoo.modules.loading: loading account/views/digest_views.xml 
+2023-03-18 18:28:33,667 10864 INFO Potosu odoo.modules.loading: loading account/wizard/account_invoice_send_views.xml 
+2023-03-18 18:28:33,686 10864 INFO Potosu odoo.modules.loading: loading account/views/account_tax_report_views.xml 
+2023-03-18 18:28:33,740 10864 INFO Potosu odoo.modules.loading: loading account/report/account_hash_integrity_templates.xml 
+2023-03-18 18:28:33,753 10864 INFO Potosu odoo.modules.loading: loading account/views/res_currency.xml 
+2023-03-18 18:28:33,765 10864 INFO Potosu odoo.modules.loading: loading account/views/account_menuitem.xml 
+2023-03-18 18:28:34,059 10864 INFO Potosu odoo.modules.loading: loading account/views/account_analytic_default_view.xml 
+2023-03-18 18:28:34,102 10864 INFO Potosu odoo.modules.loading: loading account/wizard/account_tour_upload_bill.xml 
+2023-03-18 18:28:34,131 10864 INFO Potosu odoo.modules.loading: loading account/wizard/accrued_orders.xml 
+2023-03-18 18:28:34,151 10864 INFO Potosu odoo.modules.loading: loading account/views/bill_preview_template.xml 
+2023-03-18 18:28:34,185 10864 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Check Printing Base', 'United States - Accounting'] to user __system__ #1 via 127.0.0.1 
+2023-03-18 18:28:34,358 10864 INFO Potosu odoo.modules.loading: Module account loaded in 10.43s, 6566 queries 
+2023-03-18 18:28:34,358 10864 INFO Potosu odoo.modules.loading: Loading module website (39/50) 
+2023-03-18 18:28:35,509 10864 INFO Potosu odoo.modules.registry: module website: creating or updating database tables 
+2023-03-18 18:28:38,036 10864 INFO Potosu odoo.models: Storing computed values of res.company.website_id 
+2023-03-18 18:28:39,304 10864 INFO Potosu odoo.modules.loading: loading website/security/website_security.xml 
+2023-03-18 18:28:39,570 10864 INFO Potosu odoo.modules.loading: loading website/security/ir.model.access.csv 
+2023-03-18 18:28:39,641 10864 INFO Potosu odoo.modules.loading: loading website/data/ir_asset.xml 
+2023-03-18 18:28:39,667 10864 INFO Potosu odoo.modules.loading: loading website/data/ir_cron_data.xml 
+2023-03-18 18:28:39,689 10864 INFO Potosu odoo.modules.loading: loading website/data/mail_mail_data.xml 
+2023-03-18 18:28:39,713 10864 INFO Potosu odoo.modules.loading: loading website/data/website_data.xml 
+2023-03-18 18:28:40,429 10864 INFO Potosu odoo.modules.loading: loading website/data/website_visitor_cron.xml 
+2023-03-18 18:28:40,454 10864 INFO Potosu odoo.modules.loading: loading website/data/digest_data.xml 
+2023-03-18 18:28:40,496 10864 INFO Potosu odoo.modules.loading: loading website/views/assets.xml 
+2023-03-18 18:28:40,523 10864 INFO Potosu odoo.modules.loading: loading website/views/website_templates.xml 
+2023-03-18 18:28:42,560 10864 INFO Potosu odoo.modules.loading: loading website/views/website_navbar_templates.xml 
+2023-03-18 18:28:42,612 10864 INFO Potosu odoo.modules.loading: loading website/views/website_configurator_templates.xml 
+2023-03-18 18:28:42,661 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/snippets.xml 
+2023-03-18 18:28:42,800 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_title.xml 
+2023-03-18 18:28:42,827 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_cover.xml 
+2023-03-18 18:28:42,851 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_text_image.xml 
+2023-03-18 18:28:42,873 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_image_text.xml 
+2023-03-18 18:28:42,892 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_banner.xml 
+2023-03-18 18:28:42,914 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_text_block.xml 
+2023-03-18 18:28:42,934 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_features.xml 
+2023-03-18 18:28:42,953 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_three_columns.xml 
+2023-03-18 18:28:42,979 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_picture.xml 
+2023-03-18 18:28:42,999 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_carousel.xml 
+2023-03-18 18:28:43,025 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_alert.xml 
+2023-03-18 18:28:43,072 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_card.xml 
+2023-03-18 18:28:43,100 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_share.xml 
+2023-03-18 18:28:43,154 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_rating.xml 
+2023-03-18 18:28:43,206 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_hr.xml 
+2023-03-18 18:28:43,254 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_facebook_page.xml 
+2023-03-18 18:28:43,302 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_image_gallery.xml 
+2023-03-18 18:28:43,365 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_countdown.xml 
+2023-03-18 18:28:43,405 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_product_catalog.xml 
+2023-03-18 18:28:43,470 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_comparisons.xml 
+2023-03-18 18:28:43,494 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_company_team.xml 
+2023-03-18 18:28:43,518 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_call_to_action.xml 
+2023-03-18 18:28:43,539 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_references.xml 
+2023-03-18 18:28:43,561 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_popup.xml 
+2023-03-18 18:28:43,614 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_faq_collapse.xml 
+2023-03-18 18:28:43,654 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_features_grid.xml 
+2023-03-18 18:28:43,680 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_tabs.xml 
+2023-03-18 18:28:43,725 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_table_of_content.xml 
+2023-03-18 18:28:43,769 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_chart.xml 
+2023-03-18 18:28:43,810 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_parallax.xml 
+2023-03-18 18:28:43,827 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_quotes_carousel.xml 
+2023-03-18 18:28:43,852 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_numbers.xml 
+2023-03-18 18:28:43,871 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_masonry_block.xml 
+2023-03-18 18:28:44,022 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_media_list.xml 
+2023-03-18 18:28:44,069 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_showcase.xml 
+2023-03-18 18:28:44,131 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_timeline.xml 
+2023-03-18 18:28:44,173 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_process_steps.xml 
+2023-03-18 18:28:44,197 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_text_highlight.xml 
+2023-03-18 18:28:44,218 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_progress_bar.xml 
+2023-03-18 18:28:44,258 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_blockquote.xml 
+2023-03-18 18:28:44,306 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_badge.xml 
+2023-03-18 18:28:44,388 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_color_blocks_2.xml 
+2023-03-18 18:28:44,416 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_product_list.xml 
+2023-03-18 18:28:44,451 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_mega_menu_multi_menus.xml 
+2023-03-18 18:28:44,477 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_mega_menu_menu_image_menu.xml 
+2023-03-18 18:28:44,507 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_mega_menu_thumbnails.xml 
+2023-03-18 18:28:44,551 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_mega_menu_little_icons.xml 
+2023-03-18 18:28:44,584 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_mega_menu_images_subtitles.xml 
+2023-03-18 18:28:44,626 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_mega_menu_menus_logos.xml 
+2023-03-18 18:28:44,657 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_mega_menu_odoo_menu.xml 
+2023-03-18 18:28:44,684 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_mega_menu_big_icons_subtitles.xml 
+2023-03-18 18:28:44,711 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_mega_menu_cards.xml 
+2023-03-18 18:28:44,743 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_google_map.xml 
+2023-03-18 18:28:44,802 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_map.xml 
+2023-03-18 18:28:44,850 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_dynamic_snippet.xml 
+2023-03-18 18:28:44,925 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_dynamic_snippet_carousel.xml 
+2023-03-18 18:28:44,993 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_embed_code.xml 
+2023-03-18 18:28:45,044 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_website_form.xml 
+2023-03-18 18:28:45,112 10864 INFO Potosu odoo.modules.loading: loading website/views/snippets/s_searchbar.xml 
+2023-03-18 18:28:45,175 10864 INFO Potosu odoo.modules.loading: loading website/views/website_views.xml 
+2023-03-18 18:28:45,522 10864 INFO Potosu odoo.modules.loading: loading website/views/website_visitor_views.xml 
+2023-03-18 18:28:45,651 10864 INFO Potosu odoo.modules.loading: loading website/views/res_config_settings_views.xml 
+2023-03-18 18:28:45,798 10864 INFO Potosu odoo.modules.loading: loading website/views/website_rewrite.xml 
+2023-03-18 18:28:45,841 10864 INFO Potosu odoo.modules.loading: loading website/views/ir_actions_views.xml 
+2023-03-18 18:28:45,894 10864 INFO Potosu odoo.modules.loading: loading website/views/ir_asset_views.xml 
+2023-03-18 18:28:45,916 10864 INFO Potosu odoo.modules.loading: loading website/views/ir_attachment_views.xml 
+2023-03-18 18:28:45,954 10864 INFO Potosu odoo.modules.loading: loading website/views/ir_model_views.xml 
+2023-03-18 18:28:45,994 10864 INFO Potosu odoo.modules.loading: loading website/views/res_partner_views.xml 
+2023-03-18 18:28:46,026 10864 INFO Potosu odoo.modules.loading: loading website/wizard/base_language_install_views.xml 
+2023-03-18 18:28:46,050 10864 INFO Potosu odoo.modules.loading: loading website/wizard/website_robots.xml 
+2023-03-18 18:28:46,296 10864 INFO Potosu odoo.modules.loading: Module website loaded in 11.94s, 6096 queries 
+2023-03-18 18:28:46,296 10864 INFO Potosu odoo.modules.loading: Loading module account_edi (40/50) 
+2023-03-18 18:28:46,817 10864 INFO Potosu odoo.modules.registry: module account_edi: creating or updating database tables 
+2023-03-18 18:28:47,485 10864 INFO Potosu odoo.modules.loading: loading account_edi/security/ir.model.access.csv 
+2023-03-18 18:28:47,523 10864 INFO Potosu odoo.modules.loading: loading account_edi/views/account_edi_document_views.xml 
+2023-03-18 18:28:47,549 10864 INFO Potosu odoo.modules.loading: loading account_edi/views/account_move_views.xml 
+2023-03-18 18:28:47,683 10864 INFO Potosu odoo.modules.loading: loading account_edi/views/account_payment_views.xml 
+2023-03-18 18:28:47,729 10864 INFO Potosu odoo.modules.loading: loading account_edi/views/account_journal_views.xml 
+2023-03-18 18:28:47,760 10864 INFO Potosu odoo.modules.loading: loading account_edi/data/cron.xml 
+2023-03-18 18:28:47,830 10864 INFO Potosu odoo.modules.loading: Module account_edi loaded in 1.53s, 332 queries 
+2023-03-18 18:28:47,830 10864 INFO Potosu odoo.modules.loading: Loading module payment (41/50) 
+2023-03-18 18:28:48,986 10864 INFO Potosu odoo.modules.registry: module payment: creating or updating database tables 
+2023-03-18 18:28:49,860 10864 INFO Potosu odoo.modules.loading: loading payment/data/payment_icon_data.xml 
+2023-03-18 18:28:50,209 10864 INFO Potosu odoo.modules.loading: loading payment/data/payment_acquirer_data.xml 
+2023-03-18 18:28:50,677 10864 INFO Potosu odoo.modules.loading: loading payment/data/payment_cron.xml 
+2023-03-18 18:28:50,699 10864 INFO Potosu odoo.modules.loading: loading payment/views/payment_portal_templates.xml 
+2023-03-18 18:28:50,764 10864 INFO Potosu odoo.modules.loading: loading payment/views/payment_templates.xml 
+2023-03-18 18:28:50,815 10864 INFO Potosu odoo.modules.loading: loading payment/views/account_invoice_views.xml 
+2023-03-18 18:28:50,848 10864 INFO Potosu odoo.modules.loading: loading payment/views/account_journal_views.xml 
+2023-03-18 18:28:50,878 10864 INFO Potosu odoo.modules.loading: loading payment/views/account_payment_views.xml 
+2023-03-18 18:28:50,908 10864 INFO Potosu odoo.modules.loading: loading payment/views/payment_acquirer_views.xml 
+2023-03-18 18:28:50,989 10864 INFO Potosu odoo.modules.loading: loading payment/views/payment_icon_views.xml 
+2023-03-18 18:28:51,031 10864 INFO Potosu odoo.modules.loading: loading payment/views/payment_transaction_views.xml 
+2023-03-18 18:28:51,088 10864 INFO Potosu odoo.modules.loading: loading payment/views/payment_token_views.xml 
+2023-03-18 18:28:51,135 10864 INFO Potosu odoo.modules.loading: loading payment/views/res_partner_views.xml 
+2023-03-18 18:28:51,169 10864 INFO Potosu odoo.modules.loading: loading payment/security/ir.model.access.csv 
+2023-03-18 18:28:51,424 10864 INFO Potosu odoo.modules.loading: loading payment/security/payment_security.xml 
+2023-03-18 18:28:51,516 10864 INFO Potosu odoo.modules.loading: loading payment/wizards/account_payment_register_views.xml 
+2023-03-18 18:28:51,536 10864 INFO Potosu odoo.modules.loading: loading payment/wizards/payment_acquirer_onboarding_templates.xml 
+2023-03-18 18:28:51,562 10864 INFO Potosu odoo.modules.loading: loading payment/wizards/payment_link_wizard_views.xml 
+2023-03-18 18:28:51,587 10864 INFO Potosu odoo.modules.loading: loading payment/wizards/payment_refund_wizard_views.xml 
+2023-03-18 18:28:51,673 10864 INFO Potosu odoo.modules.loading: Module payment loaded in 3.84s, 1110 queries 
+2023-03-18 18:28:51,673 10864 INFO Potosu odoo.modules.loading: Loading module snailmail_account (42/50) 
+2023-03-18 18:28:52,284 10864 INFO Potosu odoo.modules.registry: module snailmail_account: creating or updating database tables 
+2023-03-18 18:28:52,847 10864 INFO Potosu odoo.modules.loading: loading snailmail_account/views/res_config_settings_views.xml 
+2023-03-18 18:28:52,927 10864 INFO Potosu odoo.modules.loading: loading snailmail_account/wizard/account_invoice_send_views.xml 
+2023-03-18 18:28:52,964 10864 INFO Potosu odoo.modules.loading: loading snailmail_account/security/ir.model.access.csv 
+2023-03-18 18:28:53,035 10864 INFO Potosu odoo.modules.loading: Module snailmail_account loaded in 1.36s, 133 queries 
+2023-03-18 18:28:53,035 10864 INFO Potosu odoo.modules.loading: Loading module website_mail (43/50) 
+2023-03-18 18:28:53,849 10864 INFO Potosu odoo.modules.registry: module website_mail: creating or updating database tables 
+2023-03-18 18:28:53,878 10864 INFO Potosu odoo.modules.loading: loading website_mail/views/website_mail_templates.xml 
+2023-03-18 18:28:54,136 10864 INFO Potosu odoo.modules.loading: Module website_mail loaded in 1.10s, 38 queries 
+2023-03-18 18:28:54,136 10864 INFO Potosu odoo.modules.loading: Loading module website_sms (44/50) 
+2023-03-18 18:28:54,808 10864 INFO Potosu odoo.modules.registry: module website_sms: creating or updating database tables 
+2023-03-18 18:28:54,850 10864 INFO Potosu odoo.modules.loading: loading website_sms/views/website_visitor_views.xml 
+2023-03-18 18:28:55,283 10864 INFO Potosu odoo.modules.loading: Module website_sms loaded in 1.15s, 81 queries 
+2023-03-18 18:28:55,284 10864 INFO Potosu odoo.modules.loading: Loading module account_edi_facturx (45/50) 
+2023-03-18 18:28:55,884 10864 INFO Potosu odoo.modules.registry: module account_edi_facturx: creating or updating database tables 
+2023-03-18 18:28:55,935 10864 INFO Potosu odoo.modules.loading: loading account_edi_facturx/data/account_edi_data.xml 
+2023-03-18 18:28:56,142 10864 INFO Potosu odoo.modules.loading: loading account_edi_facturx/data/facturx_templates.xml 
+2023-03-18 18:28:56,202 10864 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Import/Export electronic invoices with UBL/CII'] to user __system__ #1 via 127.0.0.1 
+2023-03-18 18:28:56,283 10864 INFO Potosu odoo.modules.loading: Module account_edi_facturx loaded in 1.00s, 103 queries 
+2023-03-18 18:28:56,283 10864 INFO Potosu odoo.modules.loading: Loading module payment_transfer (46/50) 
+2023-03-18 18:28:56,982 10864 INFO Potosu odoo.modules.registry: module payment_transfer: creating or updating database tables 
+2023-03-18 18:28:57,278 10864 INFO Potosu odoo.modules.loading: loading payment_transfer/views/payment_views.xml 
+2023-03-18 18:28:57,313 10864 INFO Potosu odoo.modules.loading: loading payment_transfer/views/payment_transfer_templates.xml 
+2023-03-18 18:28:57,352 10864 INFO Potosu odoo.modules.loading: loading payment_transfer/data/payment_acquirer_data.xml 
+2023-03-18 18:28:57,421 10864 INFO Potosu odoo.modules.loading: Module payment_transfer loaded in 1.14s, 116 queries 
+2023-03-18 18:28:57,421 10864 INFO Potosu odoo.modules.loading: Loading module sale (47/50) 
+2023-03-18 18:28:58,681 10864 INFO Potosu odoo.modules.registry: module sale: creating or updating database tables 
+2023-03-18 18:29:00,219 10864 INFO Potosu odoo.modules.loading: loading sale/security/sale_security.xml 
+2023-03-18 18:29:00,601 10864 INFO Potosu odoo.modules.loading: loading sale/security/ir.model.access.csv 
+2023-03-18 18:29:00,740 10864 INFO Potosu odoo.modules.loading: loading sale/report/sale_report.xml 
+2023-03-18 18:29:00,760 10864 INFO Potosu odoo.modules.loading: loading sale/report/sale_report_views.xml 
+2023-03-18 18:29:00,807 10864 INFO Potosu odoo.modules.loading: loading sale/report/sale_report_templates.xml 
+2023-03-18 18:29:00,836 10864 INFO Potosu odoo.modules.loading: loading sale/report/invoice_report_templates.xml 
+2023-03-18 18:29:00,857 10864 INFO Potosu odoo.modules.loading: loading sale/report/report_all_channels_sales_views.xml 
+2023-03-18 18:29:00,868 10864 INFO Potosu odoo.modules.loading: loading sale/data/ir_sequence_data.xml 
+2023-03-18 18:29:00,886 10864 INFO Potosu odoo.modules.loading: loading sale/data/mail_data_various.xml 
+2023-03-18 18:29:00,927 10864 INFO Potosu odoo.modules.loading: loading sale/data/mail_template_data.xml 
+2023-03-18 18:29:00,948 10864 INFO Potosu odoo.modules.loading: loading sale/data/mail_templates.xml 
+2023-03-18 18:29:00,971 10864 INFO Potosu odoo.modules.loading: loading sale/data/sale_data.xml 
+2023-03-18 18:29:01,001 10864 INFO Potosu odoo.modules.loading: loading sale/wizard/sale_make_invoice_advance_views.xml 
+2023-03-18 18:29:01,025 10864 INFO Potosu odoo.modules.loading: loading sale/views/sale_views.xml 
+2023-03-18 18:29:01,813 10864 INFO Potosu odoo.modules.loading: loading sale/views/crm_team_views.xml 
+2023-03-18 18:29:01,942 10864 INFO Potosu odoo.modules.loading: loading sale/views/res_partner_views.xml 
+2023-03-18 18:29:02,127 10864 INFO Potosu odoo.modules.loading: loading sale/views/mail_activity_views.xml 
+2023-03-18 18:29:02,155 10864 INFO Potosu odoo.modules.loading: loading sale/views/variant_templates.xml 
+2023-03-18 18:29:02,184 10864 INFO Potosu odoo.modules.loading: loading sale/views/sale_portal_templates.xml 
+2023-03-18 18:29:02,290 10864 INFO Potosu odoo.modules.loading: loading sale/views/sale_onboarding_views.xml 
+2023-03-18 18:29:02,350 10864 INFO Potosu odoo.modules.loading: loading sale/views/res_config_settings_views.xml 
+2023-03-18 18:29:02,463 10864 INFO Potosu odoo.modules.loading: loading sale/views/payment_templates.xml 
+2023-03-18 18:29:02,501 10864 INFO Potosu odoo.modules.loading: loading sale/views/payment_views.xml 
+2023-03-18 18:29:02,541 10864 INFO Potosu odoo.modules.loading: loading sale/views/product_views.xml 
+2023-03-18 18:29:02,564 10864 INFO Potosu odoo.modules.loading: loading sale/views/product_packaging_views.xml 
+2023-03-18 18:29:02,598 10864 INFO Potosu odoo.modules.loading: loading sale/views/utm_campaign_views.xml 
+2023-03-18 18:29:02,639 10864 INFO Potosu odoo.modules.loading: loading sale/wizard/sale_order_cancel_views.xml 
+2023-03-18 18:29:02,660 10864 INFO Potosu odoo.modules.loading: loading sale/wizard/sale_payment_link_views.xml 
+2023-03-18 18:29:02,823 10864 INFO Potosu odoo.modules.loading: Module sale loaded in 5.40s, 2477 queries 
+2023-03-18 18:29:02,823 10864 INFO Potosu odoo.modules.loading: Loading module website_payment (48/50) 
+2023-03-18 18:29:03,419 10864 INFO Potosu odoo.modules.registry: module website_payment: creating or updating database tables 
+2023-03-18 18:29:03,749 10864 INFO Potosu odoo.modules.loading: loading website_payment/data/donation_data.xml 
+2023-03-18 18:29:03,774 10864 INFO Potosu odoo.modules.loading: loading website_payment/views/payment_acquirer.xml 
+2023-03-18 18:29:03,797 10864 INFO Potosu odoo.modules.loading: loading website_payment/views/donation_templates.xml 
+2023-03-18 18:29:03,835 10864 INFO Potosu odoo.modules.loading: loading website_payment/views/snippets/snippets.xml 
+2023-03-18 18:29:03,879 10864 INFO Potosu odoo.modules.loading: loading website_payment/views/snippets/s_donation.xml 
+2023-03-18 18:29:03,970 10864 INFO Potosu odoo.modules.loading: Module website_payment loaded in 1.15s, 194 queries 
+2023-03-18 18:29:03,970 10864 INFO Potosu odoo.modules.loading: Loading module sale_sms (49/50) 
+2023-03-18 18:29:04,458 10864 INFO Potosu odoo.modules.loading: loading sale_sms/security/ir.model.access.csv 
+2023-03-18 18:29:04,635 10864 INFO Potosu odoo.modules.loading: loading sale_sms/security/security.xml 
+2023-03-18 18:29:04,668 10864 INFO Potosu odoo.modules.loading: Module sale_sms loaded in 0.70s, 48 queries 
+2023-03-18 18:29:04,668 10864 INFO Potosu odoo.modules.loading: Loading module website_sale (50/50) 
+2023-03-18 18:29:05,640 10864 INFO Potosu odoo.modules.registry: module website_sale: creating or updating database tables 
+2023-03-18 18:29:06,835 10864 INFO Potosu odoo.modules.loading: loading website_sale/security/ir.model.access.csv 
+2023-03-18 18:29:06,920 10864 INFO Potosu odoo.modules.loading: loading website_sale/security/website_sale.xml 
+2023-03-18 18:29:07,046 10864 INFO Potosu odoo.modules.loading: loading website_sale/data/data.xml 
+2023-03-18 18:29:07,176 10864 INFO Potosu odoo.modules.loading: loading website_sale/data/mail_template_data.xml 
+2023-03-18 18:29:07,195 10864 INFO Potosu odoo.modules.loading: loading website_sale/data/product_snippet_template_data.xml 
+2023-03-18 18:29:07,305 10864 INFO Potosu odoo.modules.loading: loading website_sale/data/digest_data.xml 
+2023-03-18 18:29:07,323 10864 INFO Potosu odoo.modules.loading: loading website_sale/views/product_attribute_views.xml 
+2023-03-18 18:29:07,368 10864 INFO Potosu odoo.modules.loading: loading website_sale/views/product_views.xml 
+2023-03-18 18:29:07,691 10864 INFO Potosu odoo.modules.loading: loading website_sale/views/account_views.xml 
+2023-03-18 18:29:07,756 10864 INFO Potosu odoo.modules.loading: loading website_sale/views/onboarding_views.xml 
+2023-03-18 18:29:07,795 10864 INFO Potosu odoo.modules.loading: loading website_sale/views/sale_report_views.xml 
+2023-03-18 18:29:07,899 10864 INFO Potosu odoo.modules.loading: loading website_sale/views/sale_order_views.xml 
+2023-03-18 18:29:08,261 10864 INFO Potosu odoo.modules.loading: loading website_sale/views/crm_team_views.xml 
+2023-03-18 18:29:08,301 10864 INFO Potosu odoo.modules.loading: loading website_sale/views/templates.xml 
+2023-03-18 18:29:09,259 10864 INFO Potosu odoo.modules.loading: loading website_sale/views/snippets/snippets.xml 
+2023-03-18 18:29:09,354 10864 INFO Potosu odoo.modules.loading: loading website_sale/views/snippets/s_dynamic_snippet_products.xml 
+2023-03-18 18:29:09,415 10864 INFO Potosu odoo.modules.loading: loading website_sale/views/res_config_settings_views.xml 
+2023-03-18 18:29:09,584 10864 INFO Potosu odoo.modules.loading: loading website_sale/views/digest_views.xml 
+2023-03-18 18:29:09,607 10864 INFO Potosu odoo.modules.loading: loading website_sale/views/website_sale_visitor_views.xml 
+2023-03-18 18:29:09,736 10864 INFO Potosu odoo.modules.loading: loading website_sale/views/base_unit_view.xml 
+2023-03-18 18:29:09,850 10864 INFO Potosu odoo.modules.loading: Module website_sale loaded in 5.18s, 2711 queries 
+2023-03-18 18:29:09,850 10864 INFO Potosu odoo.modules.loading: 50 modules loaded in 67.88s, 30870 queries (+0 extra) 
+2023-03-18 18:29:09,855 10864 INFO Potosu odoo.modules.loading: loading 54 modules... 
+2023-03-18 18:29:09,855 10864 INFO Potosu odoo.modules.loading: Loading module account_check_printing (40/54) 
+2023-03-18 18:29:10,394 10864 INFO Potosu odoo.modules.registry: module account_check_printing: creating or updating database tables 
+2023-03-18 18:29:10,879 10864 INFO Potosu odoo.modules.loading: loading account_check_printing/security/ir.model.access.csv 
+2023-03-18 18:29:10,896 10864 INFO Potosu odoo.modules.loading: loading account_check_printing/data/account_check_printing_data.xml 
+2023-03-18 18:29:10,915 10864 INFO Potosu odoo.modules.loading: loading account_check_printing/views/account_journal_views.xml 
+2023-03-18 18:29:10,955 10864 INFO Potosu odoo.modules.loading: loading account_check_printing/views/account_move_views.xml 
+2023-03-18 18:29:10,979 10864 INFO Potosu odoo.modules.loading: loading account_check_printing/views/account_payment_views.xml 
+2023-03-18 18:29:11,033 10864 INFO Potosu odoo.modules.loading: loading account_check_printing/views/res_config_settings_views.xml 
+2023-03-18 18:29:11,136 10864 INFO Potosu odoo.modules.loading: loading account_check_printing/views/res_partner_views.xml 
+2023-03-18 18:29:11,176 10864 INFO Potosu odoo.modules.loading: loading account_check_printing/wizard/print_prenumbered_checks_views.xml 
+2023-03-18 18:29:11,223 10864 INFO Potosu odoo.modules.loading: Module account_check_printing loaded in 1.37s, 334 queries 
+2023-03-18 18:29:11,223 10864 INFO Potosu odoo.modules.loading: Loading module l10n_generic_coa (42/54) 
+2023-03-18 18:29:11,826 10864 INFO Potosu odoo.modules.loading: loading l10n_generic_coa/data/l10n_generic_coa.xml 
+2023-03-18 18:29:12,075 10864 INFO Potosu odoo.modules.loading: loading l10n_generic_coa/data/account.account.template.csv 
+2023-03-18 18:29:12,325 10864 INFO Potosu odoo.modules.loading: loading l10n_generic_coa/data/l10n_generic_coa_post.xml 
+2023-03-18 18:29:13,450 10864 INFO Potosu odoo.modules.loading: Module l10n_generic_coa loaded in 2.23s, 985 queries 
+2023-03-18 18:29:13,450 10864 INFO Potosu odoo.modules.loading: Loading module account_edi_ubl_cii (48/54) 
+2023-03-18 18:29:14,571 10864 INFO Potosu odoo.modules.registry: module account_edi_ubl_cii: creating or updating database tables 
+2023-03-18 18:29:14,871 10864 INFO Potosu odoo.modules.loading: loading account_edi_ubl_cii/data/account_edi_data.xml 
+2023-03-18 18:29:14,922 10864 INFO Potosu odoo.modules.loading: loading account_edi_ubl_cii/data/cii_22_templates.xml 
+2023-03-18 18:29:14,969 10864 INFO Potosu odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_20_templates.xml 
+2023-03-18 18:29:15,046 10864 INFO Potosu odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_21_templates.xml 
+2023-03-18 18:29:15,091 10864 INFO Potosu odoo.modules.loading: Module account_edi_ubl_cii loaded in 1.64s, 183 queries 
+2023-03-18 18:29:15,091 10864 INFO Potosu odoo.modules.loading: Loading module l10n_us (49/54) 
+2023-03-18 18:29:15,583 10864 INFO Potosu odoo.modules.registry: module l10n_us: creating or updating database tables 
+2023-03-18 18:29:15,773 10864 INFO Potosu odoo.modules.loading: loading l10n_us/data/res_company_data.xml 
+2023-03-18 18:29:15,789 10864 INFO Potosu odoo.modules.loading: loading l10n_us/views/res_partner_bank_views.xml 
+2023-03-18 18:29:15,833 10864 INFO Potosu odoo.modules.loading: Module l10n_us loaded in 0.74s, 77 queries 
+2023-03-18 18:29:15,833 10864 INFO Potosu odoo.modules.loading: 54 modules loaded in 5.98s, 1579 queries (+0 extra) 
+2023-03-18 18:29:17,098 10864 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-03-18 18:29:17,106 10864 INFO Potosu odoo.modules.registry: Registry loaded in 76.128s 
+2023-03-18 18:29:17,107 10864 INFO Potosu odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-03-18 18:29:17,120 10864 INFO Potosu odoo.addons.base.models.ir_module: next action is "Start Website Configurator" 
+2023-03-18 18:29:17,151 10864 INFO Potosu odoo.modules.registry: Registry changed, signaling through the database 
+2023-03-18 18:29:17,153 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:17] "POST /web/dataset/call_button HTTP/1.1" 200 - 34434 29.707 46.720
+2023-03-18 18:29:17,502 10864 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2023-03-18 18:29:34,034 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:34] "GET /website/configurator HTTP/1.1" 200 - 159 0.170 16.370
+2023-03-18 18:29:34,365 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:34] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - - - -
+2023-03-18 18:29:34,379 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:34] "GET /web/assets/272-061da77/1/web.assets_common.min.css HTTP/1.1" 200 - 2 0.002 0.018
+2023-03-18 18:29:34,390 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:34] "GET /web/assets/273-09f0aff/1/website.website_configurator_assets_scss.min.css HTTP/1.1" 200 - 2 0.005 0.025
+2023-03-18 18:29:34,636 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:34] "GET /web/assets/274-cb23f46/1/website.assets_editor.min.css HTTP/1.1" 200 - 2 0.006 0.016
+2023-03-18 18:29:34,731 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:34] "GET /web/assets/275-6af5483/1/web.assets_common_minimal.min.js HTTP/1.1" 200 - 2 0.010 0.048
+2023-03-18 18:29:34,737 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:34] "GET /web/assets/276-99b5ced/1/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 2 0.001 0.032
+2023-03-18 18:29:34,821 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2023-03-18 18:29:34,917 10864 INFO Potosu odoo.addons.base.models.ir_attachment: filestore gc 72 checked, 0 removed 
+2023-03-18 18:29:34,964 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:34] "GET /web/image/website/1/favicon?unique=330a98c HTTP/1.1" 200 - 4 0.003 0.010
+2023-03-18 18:29:35,002 10864 INFO Potosu odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2023-03-18 18:29:35,049 10864 INFO Potosu odoo.models.unlink: User #1 deleted base.module.update records with IDs: [36] 
+2023-03-18 18:29:35,087 10864 INFO Potosu odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2023-03-18 18:29:35,389 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2023-03-18 18:29:35,404 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-03-18 18:29:35,419 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-03-18 18:29:35,430 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2023-03-18 18:29:35,439 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2023-03-18 18:29:35,449 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2023-03-18 18:29:35,458 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2023-03-18 18:29:35,467 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-03-18 18:29:35,472 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-03-18 18:29:35,480 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-03-18 18:29:35,488 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-03-18 18:29:35,497 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-03-18 18:29:35,503 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-03-18 18:29:35,512 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Disable unused snippets assets`. 
+2023-03-18 18:29:35,595 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:35] "GET /web/assets/277-bed371a/1/web.assets_common_lazy.min.js HTTP/1.1" 200 - 2 0.002 0.390
+2023-03-18 18:29:35,983 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:35] "GET /web/assets/278-35ecf0a/1/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 2 0.001 0.204
+2023-03-18 18:29:36,441 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:36] "GET /website/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?lang=en_US HTTP/1.1" 200 - 4 0.007 0.013
+2023-03-18 18:29:36,513 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:36] "GET /web/assets/279-cb23f46/1/website.assets_editor.min.js HTTP/1.1" 200 - 2 0.002 0.060
+2023-03-18 18:29:36,689 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:36] "GET /web/assets/280-d33ad3c/1/website.website_configurator_assets_js.min.js HTTP/1.1" 200 - 2 0.000 0.021
+2023-03-18 18:29:36,904 10864 INFO Potosu odoo.addons.iap.tools.iap_tools: iap jsonrpc https://website.api.odoo.com/api/website/1/configurator/industries 
+2023-03-18 18:29:36,939 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Website Visitor : Archive old visitors`. 
+2023-03-18 18:29:36,954 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `Website Visitor : Archive old visitors` done. 
+2023-03-18 18:29:36,976 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-03-18 18:29:37,000 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-03-18 18:29:37,112 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `Disable unused snippets assets` done. 
+2023-03-18 18:29:37,126 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:37] "GET /web/webclient/qweb/1679164176703?bundle=web.assets_frontend HTTP/1.1" 200 - 16 0.019 0.095
+2023-03-18 18:29:37,149 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:37] "GET /website/translations/5227498d9df4b403b0244c75aac21e0c091e50ce HTTP/1.1" 200 - 4 0.004 0.007
+2023-03-18 18:29:37,474 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:37] "GET /website/static/src/xml/website.xml?debug=1679164177156 HTTP/1.1" 200 - - - -
+2023-03-18 18:29:37,898 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:37] "POST /web/dataset/call_kw/website/configurator_init HTTP/1.1" 200 - 16 0.036 1.022
+2023-03-18 18:29:38,299 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:38] "GET /website/static/src/xml/theme_preview.xml HTTP/1.1" 200 - - - -
+2023-03-18 18:29:38,491 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:29:38] "GET /website/static/src/components/configurator/configurator.xml HTTP/1.1" 200 - - - -
+2023-03-18 18:38:05,592 10864 INFO ? werkzeug: 127.0.0.1 - - [18/Mar/2023 18:38:05] "GET /website/static/src/img/odoo_logo.svg HTTP/1.1" 200 - - - -
+2023-03-18 18:38:05,612 10864 INFO Potosu werkzeug: 127.0.0.1 - - [18/Mar/2023 18:38:05] "POST /web/dataset/call_kw/web_tour.tour/get_consumed_tours HTTP/1.1" 200 - 9 0.027 0.013
+2023-03-18 18:39:37,241 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-03-18 18:39:37,256 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-03-18 18:48:56,481 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-03-18 18:48:56,490 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-03-18 18:59:06,760 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-03-18 18:59:06,765 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-03-18 19:09:37,640 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-03-18 19:09:37,647 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-03-18 19:19:37,784 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-03-18 19:19:37,793 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-03-18 19:28:37,864 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-03-18 19:28:37,880 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-03-18 19:28:37,890 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-03-18 19:28:37,890 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-03-18 19:28:37,907 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-03-18 19:28:37,917 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-03-18 19:28:37,917 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-03-18 19:28:37,933 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-03-18 19:28:58,177 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-03-18 19:28:58,193 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-03-18 19:39:08,428 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-03-18 19:39:08,433 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-03-18 22:12:00,506 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-03-18 22:12:00,516 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-03-18 22:12:00,536 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-03-18 22:12:00,587 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-03-18 22:12:00,597 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-03-18 22:12:00,607 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-03-18 22:12:00,617 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-03-18 22:12:00,627 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-03-18 22:12:00,637 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-03-18 22:12:00,647 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-03-18 22:12:00,667 10864 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2023-03-18 22:12:01,380 10864 INFO Potosu odoo.addons.base.models.ir_cron: Job `Digest Emails` done. 

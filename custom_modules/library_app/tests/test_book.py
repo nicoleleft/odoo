@@ -1,4 +1,4 @@
-from odoo.tests.common import TransactionCase
+from server.odoo.tests.common import TransactionCase
 
 
 class TestBook(TransactionCase):
