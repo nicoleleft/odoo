@@ -8,4 +8,8 @@
     'author': 'Nicole W',
     'installable': True,
     'application': True,
+    'data': [
+                "views/plant.xml",
+                "security/plant_security.xml"
+            ]
 }

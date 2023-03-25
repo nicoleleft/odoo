@@ -1,2 +1,4 @@
 id, name, model_id:id, group_id:id, read, write, create, unlink
 access_plant, Plant, model_plant, base.group_user,1,1,1,1
+access_plant_user,PlantUser,model_plant,plant_group_user,1,1,1,0
+access_plant_manager,PlantManager,model_plant,plant_group_manager,1,1,1,1
