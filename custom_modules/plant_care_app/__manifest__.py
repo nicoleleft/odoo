@@ -10,6 +10,7 @@
     'application': True,
     'data': [
                 "views/plant.xml",
-                "security/plant_security.xml"
+                "security/plant_security.xml",
+                #"security/ir.model.access.csv"
             ]
 }
