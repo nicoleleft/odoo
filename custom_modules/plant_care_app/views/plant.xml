@@ -10,6 +10,7 @@
                         <field name="name" />
                         <field name="watering_schedule"/>
                         <field name="time_unit" /> 
+                        <field name="image" widget="image" />
                     </group>
                 </sheet>
             </form>

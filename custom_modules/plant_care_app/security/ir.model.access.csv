@@ -1,4 +1,2 @@
-id, name, model_id:id, group_id:id, read, write, create, unlink
-access_plant, Plant, model_plant, base.group_user,1,1,1,1
-access_plant_user,PlantUser,model_plant,plant_group_user,1,1,1,0
-access_plant_manager,PlantManager,model_plant,plant_group_manager,1,1,1,1
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+plant_care_app.access_plant,access_plant,plant_care_app.model_plant,base.group_user,1,0,0,0
