@@ -4,7 +4,7 @@
         <field name="name">Plant Form</field>
         <field name="model">plant</field>
         <field name="arch" type="xml">
-            <form>
+            <form sample="1">
                 <sheet>
                     <group name="new_plant" string="Plant">
                         <field name="name" />

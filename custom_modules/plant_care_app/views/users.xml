@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <!-- Tree View -->
+    <record id="demo_users_view" model="ir.ui.view">
+        <field name="name">users.list</field>
+        <field name="model">users</field>
+        <field name="arch" type="xml">
+            <tree sample = "1">
+                <field name="name" />
+                <field name="id" />
+                <field name="plants" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- Window Action-->
+    <record id="user_list_action" model="ir.actions.act_window">
+        <field name="name">Users</field>
+        <field name="res_model">users</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Menu Item-->
+    <menuitem id="users" name="Users" action="user_list_action" parent="garden"/>
+
+</odoo>

@@ -10,7 +10,13 @@
     'application': True,
     'data': [
                 "views/plant.xml",
+                "views/user_template.xml",
+                "views/users.xml",
                 "security/plant_security.xml",
                 "security/ir.model.access.csv"
+            ],
+
+    'demo': [
+                "data/demo_data.xml"
             ]
 }

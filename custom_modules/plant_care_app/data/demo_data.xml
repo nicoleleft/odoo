@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="plant" model="users">
+            <field name="name">rosemary1</field>
+        </record>
+
+        <record id="plant" model="users">
+            <field name="name">rosemary2</field>
+        </record>
+
+        <record id="plant" model="users">
+            <field name="name">rosemary3</field>
+        </record>
+
+        <record id="plant" model="users">
+            <field name="name">rosemary4</field>
+        </record>
+    </data>
+</odoo>

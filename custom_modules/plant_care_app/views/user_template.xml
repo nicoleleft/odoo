@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="user_list_template" name="Users">
+        <div id="wrap" class="container">
+        <h1>Users</h1>
+            <t t-foreach="users" t-as="user">
+            <div class="row">
+                <span t-field="user.name" />,
+                <span t-field="user.id" />,
+                <span t-field="user.plants" />
+            </div>
+            </t>
+        </div>
+    </template>
+</odoo>
