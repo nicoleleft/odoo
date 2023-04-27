@@ -17,12 +17,27 @@
         </field>
     </record>
 
+    <!-- Tree View -->
+    <record id="plant_tree_view" model="ir.ui.view">
+        <field name="name">Plant Tree</field>
+        <field name="model">plant</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="watering_schedule"/>
+                <field name="time_unit"/>
+            </tree>
+        </field>
+    </record>
+
     <!-- Window Action-->
     <record id="plant" model="ir.actions.act_window">
         <field name="name">Plants</field>
         <field name="res_model">plant</field>
         <field name="view_mode">tree,form</field>
     </record>
+
+
     
     <!-- Menu Item-->
     <menuitem id="garden" name="Garden" action="plant" />
