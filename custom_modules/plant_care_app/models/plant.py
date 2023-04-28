@@ -6,5 +6,6 @@ class Plants(models.Model):
 
     name = fields.Char(string = "Plant name", required=True)
     watering_schedule = fields.Integer("Watering Schedule", required=True)
-    time_unit = fields.Selection([('days', 'Days'), ('weeks', 'Weeks'), ('months', 'Months')], required=True)
+    time_unit = fields.Selection([('days', 'Day(s)'), ('weeks', 'Week(s)'), ('months', 'Month(s)')], required=True)
     image = fields.Binary("Photo of Plant")
+    plant_parent_ids = fields.Many2many("res.users", string="Plant Parent(s)")

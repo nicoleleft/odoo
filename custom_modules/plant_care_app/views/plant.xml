@@ -10,6 +10,7 @@
                         <field name="name" />
                         <field name="watering_schedule"/>
                         <field name="time_unit" /> 
+                        <field name="plant_parent_ids" widget="many2many_tags" />
                         <field name="image" widget="image" />
                     </group>
                 </sheet>
@@ -26,6 +27,7 @@
                 <field name="name"/>
                 <field name="watering_schedule"/>
                 <field name="time_unit"/>
+                <field name="plant_parent_ids" widget="many2many_tags" />
             </tree>
         </field>
     </record>
