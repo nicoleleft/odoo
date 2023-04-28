@@ -28202,3 +28202,882 @@ plant_care_app.access_users,access_users,plant_care_app.model_users,base.group_u
 2023-04-28 03:17:37,892 13076 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
 2023-04-28 03:17:38,296 13076 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 9 connections  
 2023-04-28 03:17:38,343 13076 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:38] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 43.760
+2023-04-28 03:17:40,247 7828 INFO ? odoo: Odoo version 15.0-20230206 
+2023-04-28 03:17:40,248 7828 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-04-28 03:17:40,248 7828 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\custom_modules'] 
+2023-04-28 03:17:40,248 7828 INFO ? odoo: database: openpg@localhost:5432 
+2023-04-28 03:17:40,430 7828 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-04-28 03:17:40,714 7828 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-B922KQD.8F.pointe.orld.fl.wtsky.net:8069 
+2023-04-28 03:17:44,904 7828 INFO ? odoo.http: HTTP Configuring static files 
+2023-04-28 03:17:45,091 7828 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-04-28 03:17:45,098 7828 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-28 03:17:45,117 7828 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 03:17:45,154 7828 INFO Potosu odoo.modules.loading: loading 65 modules... 
+2023-04-28 03:17:45,177 7828 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 03:17:46,843 7828 INFO Potosu odoo.modules.loading: 65 modules loaded in 1.69s, 0 queries (+0 extra) 
+2023-04-28 03:17:47,109 7828 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-04-28 03:17:47,117 7828 INFO Potosu odoo.modules.registry: Registry loaded in 2.192s 
+2023-04-28 03:17:47,121 7828 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2023-04-28 03:17:47,321 7828 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:47] "GET /web/static/img/spin.png HTTP/1.1" 304 - - - -
+2023-04-28 03:17:47,661 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:47] "POST /web/action/load HTTP/1.1" 200 - 47 0.116 2.622
+2023-04-28 03:17:48,002 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:48] "POST /web/dataset/call_kw/plant/create HTTP/1.1" 200 - 4 0.013 0.010
+2023-04-28 03:17:48,332 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:48] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 47 0.052 0.036
+2023-04-28 03:17:48,394 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:48] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.041 0.012
+2023-04-28 03:17:48,730 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:48] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.010 0.007
+2023-04-28 03:17:48,973 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:48] "GET /om_hospital/static/description/icon.png HTTP/1.1" 404 - 2 0.003 0.004
+2023-04-28 03:17:49,108 7828 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:49] "GET /library_app/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-04-28 03:17:50,761 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:50] "POST /web/action/load HTTP/1.1" 200 - 16 0.008 0.016
+2023-04-28 03:17:51,104 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:51] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 - 6 0.009 0.011
+2023-04-28 03:17:51,345 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:51] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.004 0.005
+2023-04-28 03:17:51,444 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:51] "POST /longpolling/im_status HTTP/1.1" 200 - 7 0.021 0.010
+2023-04-28 03:17:52,572 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:52] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 3 0.002 0.009
+2023-04-28 03:17:52,894 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:52] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 2 0.001 0.004
+2023-04-28 03:17:53,145 7828 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 03:17:53,840 7828 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 03:17:54,258 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:17:54] "POST /web/dataset/call_button HTTP/1.1" 200 - 1056 0.409 0.709
+2023-04-28 03:17:58,375 7828 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Plant Care App'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 03:17:58,377 7828 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Plant Care App'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 03:17:58,377 7828 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Plant Care App'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 03:17:59,028 7828 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 03:17:59,414 7828 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 03:17:59,416 7828 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 03:17:59,422 7828 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 03:17:59,423 7828 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 03:17:59,450 7828 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-04-28 03:17:59,456 7828 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-28 03:17:59,477 7828 INFO Potosu odoo.modules.loading: updating modules list 
+2023-04-28 03:17:59,478 7828 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 03:18:00,141 7828 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 03:18:00,467 7828 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 03:18:00,491 7828 INFO Potosu odoo.modules.loading: loading 65 modules... 
+2023-04-28 03:18:00,491 7828 INFO Potosu odoo.modules.loading: Loading module plant_care_app (2/65) 
+2023-04-28 03:18:00,526 7828 INFO Potosu odoo.modules.registry: module plant_care_app: creating or updating database tables 
+2023-04-28 03:18:00,640 7828 INFO Potosu odoo.modules.loading: loading plant_care_app/views/plant.xml 
+2023-04-28 03:18:00,679 7828 INFO Potosu odoo.modules.loading: loading plant_care_app/views/user_template.xml 
+2023-04-28 03:18:00,690 7828 INFO Potosu odoo.modules.loading: loading plant_care_app/views/users.xml 
+2023-04-28 03:18:00,703 7828 INFO Potosu odoo.modules.loading: loading plant_care_app/security/plant_security.xml 
+2023-04-28 03:18:00,712 7828 INFO Potosu odoo.modules.loading: loading plant_care_app/security/ir.model.access.csv 
+2023-04-28 03:18:00,735 7828 WARNING Potosu odoo.modules.loading: The models ['users'] have no access rules in module plant_care_app, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+plant_care_app.access_users,access_users,plant_care_app.model_users,base.group_user,1,0,0,0 
+2023-04-28 03:18:00,742 7828 INFO Potosu odoo.modules.loading: Module plant_care_app loaded in 0.25s, 158 queries 
+2023-04-28 03:18:00,796 7828 INFO Potosu odoo.modules.loading: 65 modules loaded in 0.30s, 158 queries (+0 extra) 
+2023-04-28 03:18:01,230 7828 INFO Potosu odoo.modules.registry: verifying fields for every extended model 
+2023-04-28 03:18:01,605 7828 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-04-28 03:18:01,614 7828 INFO Potosu odoo.modules.registry: Registry loaded in 2.173s 
+2023-04-28 03:18:01,614 7828 INFO Potosu odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-04-28 03:18:01,618 7828 INFO Potosu odoo.modules.registry: Registry changed, signaling through the database 
+2023-04-28 03:18:01,619 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:01] "POST /web/dataset/call_button HTTP/1.1" 200 - 3152 1.371 1.880
+2023-04-28 03:18:01,637 7828 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2023-04-28 03:18:03,258 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:03] "GET /web HTTP/1.1" 200 - 270 0.121 1.504
+2023-04-28 03:18:03,291 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:03] "GET /web/assets/644-802da4e/web.assets_common.min.css HTTP/1.1" 200 - 2 0.001 0.009
+2023-04-28 03:18:03,852 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:03] "GET /web/assets/645-d9a1175/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.005 0.263
+2023-04-28 03:18:03,882 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:03] "GET /web/webclient/load_menus/b3bc3d6e61f2ab65e2ec0585bfd12af8f456d1086e44ad608330678d11e5872b HTTP/1.1" 200 - 1 0.000 0.269
+2023-04-28 03:18:03,883 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:03] "GET /web/assets/646-802da4e/web.assets_common.min.js HTTP/1.1" 304 - 2 0.001 0.297
+2023-04-28 03:18:03,900 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:03] "GET /web/assets/647-d9a1175/web.assets_backend.min.js HTTP/1.1" 304 - 2 0.004 0.308
+2023-04-28 03:18:04,103 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:04] "GET /web/webclient/qweb/cabad1edfcddf6455c8f891cb8223229f3c123e6a5cf68e1dade8c60db89b948?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.004 0.484
+2023-04-28 03:18:04,683 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:04] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.011 0.013
+2023-04-28 03:18:04,692 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:04] "POST /web/action/load HTTP/1.1" 200 - 8 0.011 0.021
+2023-04-28 03:18:04,866 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:04] "GET /web/image?model=res.users&field=avatar_128&id=1 HTTP/1.1" 304 - 10 0.116 0.086
+2023-04-28 03:18:04,866 7828 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-04-28 03:18:05,055 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:05] "POST /mail/init_messaging HTTP/1.1" 200 - 38 0.086 0.048
+2023-04-28 03:18:05,235 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:05] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.012 0.005
+2023-04-28 03:18:05,461 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:05] "POST /mail/inbox/messages HTTP/1.1" 200 - 5 0.007 0.016
+2023-04-28 03:18:05,464 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:05] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 200 - 7 0.008 0.017
+2023-04-28 03:18:05,465 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:05] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.017 0.011
+2023-04-28 03:18:05,504 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:05] "GET /web/image/res.partner/51/avatar_128 HTTP/1.1" 200 - 7 0.005 0.015
+2023-04-28 03:18:10,196 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:10] "POST /web/action/load HTTP/1.1" 200 - 15 0.031 0.019
+2023-04-28 03:18:10,542 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:10] "POST /web/dataset/call_kw/plant/load_views HTTP/1.1" 200 - 15 0.022 0.015
+2023-04-28 03:18:10,866 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:10] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.007 0.006
+2023-04-28 03:18:11,194 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:11] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.002 0.013
+2023-04-28 03:18:11,518 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:11] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.006
+2023-04-28 03:18:14,059 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:14] "POST /web/dataset/call_kw/plant/read HTTP/1.1" 200 - 4 0.006 0.006
+2023-04-28 03:18:14,381 7828 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:14] "GET /web/static/img/placeholder.png HTTP/1.1" 304 - - - -
+2023-04-28 03:18:14,385 7828 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:14] "GET /web/static/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-04-28 03:18:17,580 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:17] "POST /web/dataset/call_kw/res.users/name_search HTTP/1.1" 200 - 4 0.004 0.008
+2023-04-28 03:18:19,866 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:19] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.001 0.008
+2023-04-28 03:18:20,610 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:20] "POST /web/dataset/call_kw/res.users/name_search HTTP/1.1" 200 - 4 0.004 0.008
+2023-04-28 03:18:22,248 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:22] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.003 0.012
+2023-04-28 03:18:23,073 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:23] "POST /web/dataset/call_kw/res.users/name_search HTTP/1.1" 200 - 4 0.005 0.006
+2023-04-28 03:18:42,455 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:42] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.006
+2023-04-28 03:18:54,879 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:54] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.032 50.188
+2023-04-28 03:18:55,460 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:18:55] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.006
+2023-04-28 03:19:33,456 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:19:33] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.004 0.005
+2023-04-28 03:19:40,876 7828 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-04-28 03:19:40,887 7828 INFO Potosu odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-04-28 03:19:45,228 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:19:45] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.018 50.018
+2023-04-28 03:19:46,148 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:19:46] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.000 0.007
+2023-04-28 03:20:24,458 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:20:24] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.006
+2023-04-28 03:20:35,565 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:20:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.014
+2023-04-28 03:20:37,144 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:20:37] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.000 0.007
+2023-04-28 03:21:15,460 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:21:15] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.005
+2023-04-28 03:21:21,923 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:21:21] "POST /web/dataset/call_kw/plant/write HTTP/1.1" 200 - 5 0.011 0.008
+2023-04-28 03:21:22,242 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:21:22] "POST /web/dataset/call_kw/plant/read HTTP/1.1" 200 - 5 0.005 0.006
+2023-04-28 03:21:22,571 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:21:22] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.002 0.007
+2023-04-28 03:21:24,291 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:21:24] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.003 0.005
+2023-04-28 03:21:24,610 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:21:24] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.003 0.007
+2023-04-28 03:21:25,904 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:21:25] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.021
+2023-04-28 03:21:27,160 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:21:27] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.006
+2023-04-28 03:22:16,256 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:22:16] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.013 50.022
+2023-04-28 03:22:25,945 7828 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 03:22:25] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.015
+2023-04-28 03:28:40,998 7828 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-04-28 03:28:41,027 7828 INFO Potosu odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-04-28 03:28:41,037 7828 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-04-28 03:28:41,059 7828 INFO Potosu odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-04-28 03:28:41,069 7828 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-04-28 03:28:41,078 7828 INFO Potosu odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-04-28 03:28:41,087 7828 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-04-28 03:28:41,094 7828 INFO Potosu odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-04-28 03:28:52,274 7828 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-04-28 03:28:52,288 7828 INFO Potosu odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-04-28 03:33:36,800 7828 INFO ? odoo.service.server: Initiating shutdown 
+2023-04-28 03:33:36,800 7828 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-04-28 03:33:37,022 7828 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 8 connections  
+2023-04-28 12:43:25,809 16668 INFO ? odoo: Odoo version 15.0-20230206 
+2023-04-28 12:43:25,809 16668 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-04-28 12:43:25,809 16668 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\custom_modules'] 
+2023-04-28 12:43:25,810 16668 INFO ? odoo: database: openpg@localhost:5432 
+2023-04-28 12:43:26,158 16668 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-04-28 12:43:26,577 16668 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-B922KQD.8F.pointe.orld.fl.wtsky.net:8069 
+2023-04-28 12:43:33,527 16668 INFO ? odoo.http: HTTP Configuring static files 
+2023-04-28 12:43:33,653 16668 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-04-28 12:43:33,661 16668 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-28 12:43:33,669 16668 WARNING Potosu odoo.modules.graph: module library_app: not installable, skipped 
+2023-04-28 12:43:33,684 16668 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:43:33,717 16668 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:43:33,760 16668 INFO Potosu odoo.modules.loading: loading 63 modules... 
+2023-04-28 12:43:33,768 16668 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:43:35,636 16668 INFO Potosu odoo.modules.loading: 63 modules loaded in 1.87s, 0 queries (+0 extra) 
+2023-04-28 12:43:36,121 16668 ERROR Potosu odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['cap_many2many', 'library_app'] 
+2023-04-28 12:43:36,122 16668 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-04-28 12:43:36,139 16668 INFO Potosu odoo.modules.registry: Registry loaded in 2.581s 
+2023-04-28 12:43:36,149 16668 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2023-04-28 12:43:42,223 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:42] "GET /web HTTP/1.1" 200 - 286 0.438 8.239
+2023-04-28 12:43:42,839 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:42] "GET /web/assets/644-802da4e/web.assets_common.min.css HTTP/1.1" 200 - 2 0.005 0.185
+2023-04-28 12:43:42,964 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:42] "GET /web/assets/645-d9a1175/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.003 0.184
+2023-04-28 12:43:43,367 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:43] "GET /web/assets/646-802da4e/web.assets_common.min.js HTTP/1.1" 200 - 2 0.002 0.478
+2023-04-28 12:43:43,591 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:43] "GET /web/webclient/load_menus/b3bc3d6e61f2ab65e2ec0585bfd12af8f456d1086e44ad608330678d11e5872b HTTP/1.1" 200 - 1 0.000 0.010
+2023-04-28 12:43:44,166 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:44] "GET /web/webclient/qweb/cabad1edfcddf6455c8f891cb8223229f3c123e6a5cf68e1dade8c60db89b948?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.003 0.274
+2023-04-28 12:43:44,491 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:44] "GET /web/assets/647-d9a1175/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.000 0.597
+2023-04-28 12:43:46,033 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:46] "POST /web/action/load HTTP/1.1" 200 - 24 0.083 0.373
+2023-04-28 12:43:46,034 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:46] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.031 0.214
+2023-04-28 12:43:46,091 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:46] "GET /web/image?model=res.users&field=avatar_128&id=1 HTTP/1.1" 200 - 10 0.025 0.135
+2023-04-28 12:43:46,091 16668 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-04-28 12:43:46,224 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:46] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 43 0.105 0.071
+2023-04-28 12:43:46,614 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:46] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.033 0.020
+2023-04-28 12:43:46,619 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:46] "POST /mail/init_messaging HTTP/1.1" 200 - 38 0.118 0.033
+2023-04-28 12:43:46,947 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:46] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.008
+2023-04-28 12:43:46,969 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:46] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.006 0.008
+2023-04-28 12:43:46,983 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:46] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.018 0.008
+2023-04-28 12:43:47,345 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:47] "GET /om_hospital/static/description/icon.png HTTP/1.1" 404 - 2 0.002 0.004
+2023-04-28 12:43:47,379 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:47] "GET /library_app/static/description/icon.png HTTP/1.1" 404 - 2 0.003 0.005
+2023-04-28 12:43:49,756 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:49] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 23 0.026 0.023
+2023-04-28 12:43:50,128 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:50] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.032 0.014
+2023-04-28 12:43:50,464 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:50] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.013
+2023-04-28 12:43:50,873 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:50] "GET /om_hospital/static/description/icon.png HTTP/1.1" 404 - 2 0.001 0.008
+2023-04-28 12:43:50,875 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:50] "GET /library_app/static/description/icon.png HTTP/1.1" 404 - 2 0.001 0.008
+2023-04-28 12:43:51,939 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:51] "POST /web/action/load HTTP/1.1" 200 - 16 0.021 0.025
+2023-04-28 12:43:52,285 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:52] "POST /web/dataset/call_kw/plant/load_views HTTP/1.1" 200 - 15 0.017 0.016
+2023-04-28 12:43:52,624 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:52] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.006 0.010
+2023-04-28 12:43:52,944 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:52] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.002 0.008
+2023-04-28 12:43:53,268 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:43:53] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.000 0.006
+2023-04-28 12:44:05,690 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:05] "POST /web/dataset/call_kw/plant/onchange HTTP/1.1" 200 - 2 0.006 0.007
+2023-04-28 12:44:06,018 16668 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:06] "GET /web/static/img/placeholder.png HTTP/1.1" 304 - - - -
+2023-04-28 12:44:06,033 16668 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:06] "GET /web/static/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-04-28 12:44:13,684 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:13] "POST /web/dataset/call_kw/res.users/name_search HTTP/1.1" 200 - 4 0.003 0.010
+2023-04-28 12:44:15,601 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:15] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.004 0.022
+2023-04-28 12:44:16,868 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:16] "POST /web/dataset/call_kw/res.users/name_search HTTP/1.1" 200 - 4 0.004 0.011
+2023-04-28 12:44:18,591 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:18] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.003 0.007
+2023-04-28 12:44:19,706 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:19] "POST /web/dataset/call_kw/res.users/name_search HTTP/1.1" 200 - 4 0.003 0.008
+2023-04-28 12:44:21,345 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:21] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.001 0.009
+2023-04-28 12:44:22,251 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:22] "POST /web/dataset/call_kw/plant/create HTTP/1.1" 200 - 4 0.016 0.007
+2023-04-28 12:44:22,574 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:22] "POST /web/dataset/call_kw/plant/read HTTP/1.1" 200 - 5 0.007 0.007
+2023-04-28 12:44:22,903 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:22] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.002 0.007
+2023-04-28 12:44:24,783 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:24] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.010 0.004
+2023-04-28 12:44:25,107 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:25] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.001 0.009
+2023-04-28 12:44:26,762 16668 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-04-28 12:44:26,791 16668 INFO Potosu odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-04-28 12:44:26,800 16668 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-04-28 12:44:26,815 16668 INFO Potosu odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-04-28 12:44:26,825 16668 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-04-28 12:44:26,831 16668 INFO Potosu odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-04-28 12:44:26,839 16668 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-04-28 12:44:26,846 16668 INFO Potosu odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-04-28 12:44:26,852 16668 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-04-28 12:44:26,865 16668 INFO Potosu odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-04-28 12:44:26,872 16668 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2023-04-28 12:44:26,956 16668 INFO Potosu odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2023-04-28 12:44:27,019 16668 INFO Potosu odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2023-04-28 12:44:27,052 16668 INFO Potosu odoo.models.unlink: User #1 deleted base.module.update records with IDs: [119, 120] 
+2023-04-28 12:44:27,080 16668 INFO Potosu odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2023-04-28 12:44:27,415 16668 INFO Potosu odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2023-04-28 12:44:36,103 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:36] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.048 50.130
+2023-04-28 12:44:37,116 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:37] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.003 0.004
+2023-04-28 12:44:57,649 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:57] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.001 0.008
+2023-04-28 12:44:57,976 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:57] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.004 0.009
+2023-04-28 12:44:58,887 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:58] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.005 0.004
+2023-04-28 12:44:59,216 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:44:59] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.002 0.010
+2023-04-28 12:45:26,441 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:45:26] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.023
+2023-04-28 12:45:27,142 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:45:27] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.003 0.005
+2023-04-28 12:45:59,854 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:45:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.018 0.022
+2023-04-28 12:46:00,174 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:00] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.007
+2023-04-28 12:46:00,806 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:00] "GET /om_hospital/static/description/icon.png HTTP/1.1" 404 - 2 0.001 0.004
+2023-04-28 12:46:00,821 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:00] "GET /library_app/static/description/icon.png HTTP/1.1" 404 - 2 0.005 0.008
+2023-04-28 12:46:12,170 16668 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Plant Care App'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:46:12,171 16668 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Plant Care App'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:46:12,171 16668 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Plant Care App'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:46:12,540 16668 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:46:13,559 16668 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:46:13,561 16668 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:46:13,571 16668 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:46:13,572 16668 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:46:13,601 16668 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-04-28 12:46:13,608 16668 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-28 12:46:13,641 16668 INFO Potosu odoo.modules.loading: updating modules list 
+2023-04-28 12:46:13,643 16668 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:46:14,010 16668 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:46:14,949 16668 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:46:14,953 16668 WARNING Potosu odoo.modules.graph: module library_app: not installable, skipped 
+2023-04-28 12:46:14,960 16668 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:46:14,987 16668 INFO Potosu odoo.modules.loading: loading 63 modules... 
+2023-04-28 12:46:14,988 16668 INFO Potosu odoo.modules.loading: Loading module plant_care_app (2/63) 
+2023-04-28 12:46:15,027 16668 INFO Potosu odoo.modules.registry: module plant_care_app: creating or updating database tables 
+2023-04-28 12:46:15,178 16668 INFO Potosu odoo.modules.loading: loading plant_care_app/views/plant.xml 
+2023-04-28 12:46:15,274 16668 INFO Potosu odoo.modules.loading: loading plant_care_app/views/user_template.xml 
+2023-04-28 12:46:15,291 16668 INFO Potosu odoo.modules.loading: loading plant_care_app/views/users.xml 
+2023-04-28 12:46:15,306 16668 INFO Potosu odoo.modules.loading: loading plant_care_app/security/plant_security.xml 
+2023-04-28 12:46:15,322 16668 INFO Potosu odoo.modules.loading: loading plant_care_app/security/ir.model.access.csv 
+2023-04-28 12:46:15,353 16668 WARNING Potosu odoo.modules.loading: The models ['users'] have no access rules in module plant_care_app, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+plant_care_app.access_users,access_users,plant_care_app.model_users,base.group_user,1,0,0,0 
+2023-04-28 12:46:15,360 16668 INFO Potosu odoo.modules.loading: Module plant_care_app loaded in 0.37s, 162 queries 
+2023-04-28 12:46:15,411 16668 INFO Potosu odoo.modules.loading: 63 modules loaded in 0.42s, 162 queries (+0 extra) 
+2023-04-28 12:46:15,412 16668 WARNING Potosu odoo.modules.graph: module library_app: not installable, skipped 
+2023-04-28 12:46:15,413 16668 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:46:15,415 16668 INFO Potosu odoo.modules.loading: loading 63 modules... 
+2023-04-28 12:46:15,415 16668 INFO Potosu odoo.modules.loading: 63 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-04-28 12:46:15,417 16668 WARNING Potosu odoo.modules.graph: module library_app: not installable, skipped 
+2023-04-28 12:46:15,418 16668 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:46:15,421 16668 INFO Potosu odoo.modules.loading: loading 63 modules... 
+2023-04-28 12:46:15,421 16668 INFO Potosu odoo.modules.loading: 63 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-04-28 12:46:15,676 16668 ERROR Potosu odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['cap_many2many', 'library_app'] 
+2023-04-28 12:46:15,749 16668 INFO Potosu odoo.modules.loading: Model library.book.category is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:46:15,750 16668 INFO Potosu odoo.modules.loading: Model report.library_app.publisher_report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:46:15,822 16668 INFO Potosu odoo.modules.loading: Model library.book is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:46:15,865 16668 INFO Potosu odoo.modules.loading: Model cap.book is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:46:15,866 16668 INFO Potosu odoo.modules.loading: Model cap.book.genre is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:46:15,866 16668 INFO Potosu odoo.modules.loading: Model res.partner.characteristics is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:46:15,872 16668 INFO Potosu odoo.modules.registry: verifying fields for every extended model 
+2023-04-28 12:46:16,235 16668 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-04-28 12:46:16,239 16668 INFO Potosu odoo.modules.registry: Registry loaded in 2.646s 
+2023-04-28 12:46:16,239 16668 INFO Potosu odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-04-28 12:46:16,244 16668 INFO Potosu odoo.modules.registry: Registry changed, signaling through the database 
+2023-04-28 12:46:16,246 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:16] "POST /web/dataset/call_button HTTP/1.1" 200 - 3145 1.560 2.525
+2023-04-28 12:46:16,571 16668 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2023-04-28 12:46:16,837 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:16] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.023 50.058
+2023-04-28 12:46:18,162 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:18] "GET /web HTTP/1.1" 200 - 270 0.244 1.350
+2023-04-28 12:46:18,340 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:18] "GET /web/assets/644-802da4e/web.assets_common.min.css HTTP/1.1" 200 - 2 0.002 0.008
+2023-04-28 12:46:18,530 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:18] "GET /web/assets/645-d9a1175/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.001 0.028
+2023-04-28 12:46:18,531 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:18] "GET /web/webclient/load_menus/1cfa009289d96c8853e852dcc1b74c853a7732562302770ed339f54bca5ca896 HTTP/1.1" 200 - 1 0.000 0.026
+2023-04-28 12:46:18,542 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:18] "GET /web/assets/646-802da4e/web.assets_common.min.js HTTP/1.1" 304 - 2 0.004 0.035
+2023-04-28 12:46:18,561 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:18] "GET /web/assets/647-d9a1175/web.assets_backend.min.js HTTP/1.1" 304 - 2 0.001 0.021
+2023-04-28 12:46:18,807 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:18] "GET /web/webclient/qweb/cabad1edfcddf6455c8f891cb8223229f3c123e6a5cf68e1dade8c60db89b948?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.004 0.274
+2023-04-28 12:46:19,339 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:19] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.005 0.004
+2023-04-28 12:46:19,708 16668 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:19] "GET /web/static/img/favicon.ico HTTP/1.1" 304 - - - -
+2023-04-28 12:46:19,715 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:19] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.007 0.011
+2023-04-28 12:46:19,741 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:19] "POST /mail/init_messaging HTTP/1.1" 200 - 41 0.030 0.031
+2023-04-28 12:46:19,954 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:19] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.006
+2023-04-28 12:46:20,108 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:20] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.012 0.008
+2023-04-28 12:46:29,479 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:29] "GET /web/image?model=res.users&field=avatar_128&id=1 HTTP/1.1" 304 - 7 0.003 0.023
+2023-04-28 12:46:29,783 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:29] "POST /web/action/load HTTP/1.1" 200 - 8 0.004 0.009
+2023-04-28 12:46:30,108 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:30] "POST /mail/inbox/messages HTTP/1.1" 200 - 5 0.002 0.007
+2023-04-28 12:46:30,167 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:30] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 200 - 7 0.009 0.012
+2023-04-28 12:46:30,178 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:30] "GET /web/image/res.partner/51/avatar_128 HTTP/1.1" 200 - 7 0.006 0.024
+2023-04-28 12:46:32,164 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:32] "POST /web/action/load HTTP/1.1" 200 - 15 0.008 0.016
+2023-04-28 12:46:32,509 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:32] "POST /web/dataset/call_kw/plant/load_views HTTP/1.1" 200 - 15 0.013 0.012
+2023-04-28 12:46:32,838 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:32] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.003 0.005
+2023-04-28 12:46:33,157 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:33] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.002 0.009
+2023-04-28 12:46:33,483 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:33] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.004
+2023-04-28 12:46:35,766 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:35] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.002 0.005
+2023-04-28 12:46:36,084 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:36] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.002 0.007
+2023-04-28 12:46:37,737 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:37] "POST /web/action/load HTTP/1.1" 200 - 12 0.012 0.014
+2023-04-28 12:46:38,064 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:38] "POST /web/dataset/call_kw/users/load_views HTTP/1.1" 200 - 11 0.008 0.011
+2023-04-28 12:46:38,390 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:38] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.007 0.004
+2023-04-28 12:46:39,920 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:39] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.003 0.006
+2023-04-28 12:46:40,255 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:46:40] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.001 0.009
+2023-04-28 12:47:07,324 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:47:07] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.017 50.163
+2023-04-28 12:47:10,120 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:47:10] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.024
+2023-04-28 12:47:10,283 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:47:10] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.006
+2023-04-28 12:48:00,479 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:48:00] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.027
+2023-04-28 12:48:01,068 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:48:01] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.003 0.008
+2023-04-28 12:48:50,834 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:48:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.015 50.016
+2023-04-28 12:48:52,339 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:48:52] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.005
+2023-04-28 12:49:27,490 16668 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-04-28 12:49:27,502 16668 INFO Potosu odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-04-28 12:49:40,873 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:49:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.026
+2023-04-28 12:49:43,021 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:49:43] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.006
+2023-04-28 12:50:30,080 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:50:30] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.003 0.005
+2023-04-28 12:50:31,225 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:50:31] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.024
+2023-04-28 12:50:31,950 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:50:31] "POST /web/dataset/call_kw/users/onchange HTTP/1.1" 200 - 2 0.001 0.005
+2023-04-28 12:50:32,273 16668 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 12:50:32] "GET /web/static/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-04-28 12:50:33,349 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:50:33] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.007
+2023-04-28 12:51:21,557 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:51:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.017
+2023-04-28 12:51:23,373 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:51:23] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.004
+2023-04-28 12:52:11,888 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:52:11] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.011
+2023-04-28 12:52:13,399 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:52:13] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.004
+2023-04-28 12:53:02,222 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:53:02] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.014
+2023-04-28 12:53:03,425 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:53:03] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.007
+2023-04-28 12:53:07,843 16668 ERROR Potosu odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\api.py", line 886, in get
+    return field_cache[record._ids[0]]
+KeyError: 87
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\fields.py", line 1061, in __get__
+    value = env.cache.get(record, self)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\api.py", line 889, in get
+    raise CacheMiss(record, field)
+odoo.exceptions.CacheMiss: 'ir.actions.act_window(87,).search_view'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\base\models\ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\service\model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 916, in __call__
+    return self.method(*args, **kw)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\web\controllers\main.py", line 1620, in load
+    action = request.env[action_type].sudo().browse([action_id]).read()
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\base\models\ir_actions.py", line 255, in read
+    result = super(IrActionsActWindow, self).read(fields, load=load)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\models.py", line 3227, in read
+    return self._read_format(fnames=fields, load=load)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\models.py", line 3247, in _read_format
+    vals[name] = convert(record[name], record, use_name_get)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\models.py", line 5902, in __getitem__
+    return self._fields[key].__get__(self, type(self))
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\fields.py", line 1110, in __get__
+    self.compute_value(recs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\fields.py", line 1269, in compute_value
+    records._compute_field_value(self)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\models.py", line 4264, in _compute_field_value
+    getattr(self, field.compute)()
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\base\models\ir_actions.py", line 222, in _compute_search_view
+    fvg = self.env[act.res_model].fields_view_get(act.search_view_id.id, 'search')
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\api.py", line 540, in __getitem__
+    return self.registry[model_name]._browse(self, (), ())
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\modules\registry.py", line 182, in __getitem__
+    return self.models[model_name]
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+KeyError: 'library.book'
+2023-04-28 12:53:07,917 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:53:07] "POST /web/action/load HTTP/1.1" 200 - 9 0.009 0.086
+2023-04-28 12:53:27,711 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:53:27] "POST /web/action/load HTTP/1.1" 200 - 24 0.013 0.023
+2023-04-28 12:53:28,097 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:53:28] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 43 0.026 0.035
+2023-04-28 12:53:28,449 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:53:28] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.022 0.013
+2023-04-28 12:53:28,773 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:53:28] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.006
+2023-04-28 12:53:29,148 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:53:29] "GET /om_hospital/static/description/icon.png HTTP/1.1" 404 - 2 0.001 0.005
+2023-04-28 12:53:29,163 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:53:29] "GET /library_app/static/description/icon.png HTTP/1.1" 404 - 2 0.002 0.003
+2023-04-28 12:53:52,562 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:53:52] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.021
+2023-04-28 12:53:53,438 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:53:53] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.004
+2023-04-28 12:53:58,835 16668 INFO ? odoo.service.server: Initiating shutdown 
+2023-04-28 12:53:58,835 16668 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-04-28 12:53:59,210 16668 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 7 connections  
+2023-04-28 12:53:59,263 16668 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:53:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 6.385
+2023-04-28 12:54:04,728 6892 INFO ? odoo: Odoo version 15.0-20230206 
+2023-04-28 12:54:04,728 6892 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-04-28 12:54:04,728 6892 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\custom_modules'] 
+2023-04-28 12:54:04,729 6892 INFO ? odoo: database: openpg@localhost:5432 
+2023-04-28 12:54:05,110 6892 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-04-28 12:54:05,491 6892 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-B922KQD.8F.pointe.orld.fl.wtsky.net:8069 
+2023-04-28 12:54:05,908 6892 INFO ? odoo.http: HTTP Configuring static files 
+2023-04-28 12:54:05,978 6892 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-04-28 12:54:05,986 6892 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-28 12:54:05,993 6892 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:54:06,011 6892 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:54:06,051 6892 INFO Potosu odoo.modules.loading: loading 64 modules... 
+2023-04-28 12:54:06,072 6892 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:54:07,576 6892 INFO Potosu odoo.modules.loading: 64 modules loaded in 1.53s, 0 queries (+0 extra) 
+2023-04-28 12:54:07,852 6892 ERROR Potosu odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['cap_many2many'] 
+2023-04-28 12:54:07,853 6892 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-04-28 12:54:07,861 6892 INFO Potosu odoo.modules.registry: Registry loaded in 1.940s 
+2023-04-28 12:54:07,866 6892 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2023-04-28 12:54:08,346 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:08] "POST /web/action/load HTTP/1.1" 200 - 38 0.109 2.316
+2023-04-28 12:54:08,356 6892 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:08] "GET /web/static/img/spin.png HTTP/1.1" 304 - - - -
+2023-04-28 12:54:08,687 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:08] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 - 7 0.016 0.010
+2023-04-28 12:54:09,017 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:09] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.006 0.005
+2023-04-28 12:54:10,009 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:10] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 3 0.010 0.007
+2023-04-28 12:54:10,327 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:10] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 2 0.003 0.005
+2023-04-28 12:54:10,590 6892 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:54:11,578 6892 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:54:11,630 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:11] "POST /web/dataset/call_button HTTP/1.1" 200 - 1057 0.378 0.666
+2023-04-28 12:54:20,392 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:20] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.041 0.017
+2023-04-28 12:54:20,607 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:20] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.005
+2023-04-28 12:54:20,729 6892 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:20] "GET /library_app/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-04-28 12:54:22,892 6892 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Library Management'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:54:22,894 6892 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Library Management'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:54:22,895 6892 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Library Management'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:54:23,909 6892 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:54:23,950 6892 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:54:23,975 6892 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-04-28 12:54:23,981 6892 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-28 12:54:24,000 6892 INFO Potosu odoo.modules.loading: updating modules list 
+2023-04-28 12:54:24,001 6892 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:54:24,961 6892 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:54:24,979 6892 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:54:24,987 6892 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:54:25,023 6892 INFO Potosu odoo.modules.loading: loading 64 modules... 
+2023-04-28 12:54:25,023 6892 INFO Potosu odoo.modules.loading: Loading module library_app (3/64) 
+2023-04-28 12:54:25,056 6892 INFO Potosu odoo.modules.registry: module library_app: creating or updating database tables 
+2023-04-28 12:54:25,187 6892 INFO Potosu odoo.modules.loading: loading library_app/security/library_security.xml 
+2023-04-28 12:54:25,254 6892 INFO Potosu odoo.modules.loading: loading library_app/security/ir.model.access.csv 
+2023-04-28 12:54:25,286 6892 INFO Potosu odoo.modules.loading: loading library_app/views/book_view.xml 
+2023-04-28 12:54:25,341 6892 INFO Potosu odoo.modules.loading: loading library_app/views/library_menu.xml 
+2023-04-28 12:54:25,367 6892 INFO Potosu odoo.modules.loading: loading library_app/views/book_list_template.xml 
+2023-04-28 12:54:25,388 6892 INFO Potosu odoo.modules.loading: loading library_app/reports/library_book_report.xml 
+2023-04-28 12:54:25,431 6892 INFO Potosu odoo.modules.loading: loading library_app/reports/library_publisher_report.xml 
+2023-04-28 12:54:25,452 6892 INFO Potosu odoo.modules.loading: Module library_app: loading demo 
+2023-04-28 12:54:25,453 6892 INFO Potosu odoo.modules.loading: loading library_app/data/res.partner.csv 
+2023-04-28 12:54:25,469 6892 INFO Potosu odoo.modules.loading: loading library_app/data/library.book.csv 
+2023-04-28 12:54:25,487 6892 INFO Potosu odoo.modules.loading: loading library_app/data/book_demo.xml 
+2023-04-28 12:54:25,512 6892 INFO Potosu odoo.modules.loading: Module library_app loaded in 0.49s, 285 queries 
+2023-04-28 12:54:25,555 6892 INFO Potosu odoo.modules.loading: 64 modules loaded in 0.53s, 285 queries (+0 extra) 
+2023-04-28 12:54:25,556 6892 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:54:25,559 6892 INFO Potosu odoo.modules.loading: loading 64 modules... 
+2023-04-28 12:54:25,560 6892 INFO Potosu odoo.modules.loading: 64 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-04-28 12:54:25,561 6892 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:54:25,564 6892 INFO Potosu odoo.modules.loading: loading 64 modules... 
+2023-04-28 12:54:25,564 6892 INFO Potosu odoo.modules.loading: 64 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-04-28 12:54:25,890 6892 ERROR Potosu odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['cap_many2many'] 
+2023-04-28 12:54:26,093 6892 INFO Potosu odoo.modules.loading: Model cap.book is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:54:26,093 6892 INFO Potosu odoo.modules.loading: Model cap.book.genre is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:54:26,093 6892 INFO Potosu odoo.modules.loading: Model res.partner.characteristics is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:54:26,096 6892 INFO Potosu odoo.modules.registry: verifying fields for every extended model 
+2023-04-28 12:54:26,489 6892 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-04-28 12:54:26,494 6892 INFO Potosu odoo.modules.registry: Registry loaded in 2.523s 
+2023-04-28 12:54:26,494 6892 INFO Potosu odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-04-28 12:54:26,498 6892 INFO Potosu odoo.modules.registry: Registry changed, signaling through the database 
+2023-04-28 12:54:26,499 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:26] "POST /web/dataset/call_button HTTP/1.1" 200 - 3282 1.468 2.146
+2023-04-28 12:54:26,842 6892 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2023-04-28 12:54:27,779 6892 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-04-28 12:54:28,616 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:28] "GET /web HTTP/1.1" 200 - 270 0.128 1.656
+2023-04-28 12:54:28,650 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:28] "GET /web/assets/644-802da4e/web.assets_common.min.css HTTP/1.1" 200 - 2 0.000 0.010
+2023-04-28 12:54:29,001 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:29] "GET /web/assets/645-d9a1175/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.002 0.048
+2023-04-28 12:54:29,162 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:29] "GET /web/webclient/load_menus/1cfa009289d96c8853e852dcc1b74c853a7732562302770ed339f54bca5ca896 HTTP/1.1" 200 - 1 0.000 0.187
+2023-04-28 12:54:29,171 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:29] "GET /web/assets/646-802da4e/web.assets_common.min.js HTTP/1.1" 304 - 2 0.006 0.212
+2023-04-28 12:54:29,185 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:29] "GET /web/assets/647-d9a1175/web.assets_backend.min.js HTTP/1.1" 304 - 2 0.010 0.221
+2023-04-28 12:54:29,346 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:29] "GET /web/webclient/qweb/cabad1edfcddf6455c8f891cb8223229f3c123e6a5cf68e1dade8c60db89b948?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.002 0.368
+2023-04-28 12:54:29,722 6892 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:29] "GET /web/static/img/favicon.ico HTTP/1.1" 304 - - - -
+2023-04-28 12:54:29,964 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:29] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.011 0.158
+2023-04-28 12:54:29,964 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:29] "POST /mail/init_messaging HTTP/1.1" 200 - 41 0.106 0.126
+2023-04-28 12:54:29,984 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:29] "POST /web/action/load HTTP/1.1" 200 - 8 0.011 0.173
+2023-04-28 12:54:30,000 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:29] "GET /web/image?model=res.users&field=avatar_128&id=1 HTTP/1.1" 304 - 7 0.018 0.178
+2023-04-28 12:54:30,330 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:30] "POST /mail/inbox/messages HTTP/1.1" 200 - 5 0.003 0.010
+2023-04-28 12:54:30,330 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:30] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.011 0.007
+2023-04-28 12:54:30,343 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:30] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.021 0.008
+2023-04-28 12:54:30,384 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:30] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 200 - 7 0.011 0.014
+2023-04-28 12:54:30,390 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:30] "GET /web/image/res.partner/51/avatar_128 HTTP/1.1" 200 - 7 0.006 0.023
+2023-04-28 12:54:32,434 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:32] "POST /web/action/load HTTP/1.1" 200 - 16 0.051 0.015
+2023-04-28 12:54:32,806 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:32] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 23 0.048 0.012
+2023-04-28 12:54:33,150 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:33] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.012 0.012
+2023-04-28 12:54:33,478 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:33] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 2 0.001 0.006
+2023-04-28 12:54:33,818 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:33] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.003 0.010
+2023-04-28 12:54:42,523 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:42] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 6 0.021 0.013
+2023-04-28 12:54:42,845 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:42] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 2 0.005 0.005
+2023-04-28 12:54:43,179 6892 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:43] "GET /web/static/img/placeholder.png HTTP/1.1" 304 - - - -
+2023-04-28 12:54:43,179 6892 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:43] "GET /web/static/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-04-28 12:54:47,481 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:54:47] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.014 0.014
+2023-04-28 12:55:17,784 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:55:17] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.015 50.139
+2023-04-28 12:55:20,018 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:55:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.038 50.182
+2023-04-28 12:55:21,037 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:55:21] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.010 0.007
+2023-04-28 12:56:10,180 6892 INFO ? odoo.service.server: Initiating shutdown 
+2023-04-28 12:56:10,180 6892 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-04-28 12:56:10,362 6892 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:10] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.002 50.020
+2023-04-28 12:56:10,629 6892 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 8 connections  
+2023-04-28 12:56:12,770 13868 INFO ? odoo: Odoo version 15.0-20230206 
+2023-04-28 12:56:12,770 13868 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-04-28 12:56:12,770 13868 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\custom_modules'] 
+2023-04-28 12:56:12,770 13868 INFO ? odoo: database: openpg@localhost:5432 
+2023-04-28 12:56:13,021 13868 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-04-28 12:56:13,552 13868 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-B922KQD.8F.pointe.orld.fl.wtsky.net:8069 
+2023-04-28 12:56:15,581 13868 INFO ? odoo.http: HTTP Configuring static files 
+2023-04-28 12:56:15,641 13868 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-04-28 12:56:15,647 13868 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-28 12:56:15,652 13868 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:56:15,660 13868 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:56:15,691 13868 INFO Potosu odoo.modules.loading: loading 64 modules... 
+2023-04-28 12:56:15,701 13868 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:56:16,982 13868 INFO Potosu odoo.modules.loading: 64 modules loaded in 1.29s, 0 queries (+0 extra) 
+2023-04-28 12:56:17,094 13868 WARNING Potosu odoo.fields: Field users.name with unknown comodel_name 'res.user' 
+2023-04-28 12:56:17,223 13868 ERROR Potosu odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['cap_many2many'] 
+2023-04-28 12:56:17,224 13868 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-04-28 12:56:17,236 13868 INFO Potosu odoo.modules.registry: Registry loaded in 1.641s 
+2023-04-28 12:56:17,242 13868 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2023-04-28 12:56:17,446 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:17] "POST /web/webclient/version_info HTTP/1.1" 200 - 21 0.056 1.794
+2023-04-28 12:56:20,048 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:20] "POST /web/action/load HTTP/1.1" 200 - 27 0.056 0.244
+2023-04-28 12:56:20,236 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:20] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 47 0.112 0.069
+2023-04-28 12:56:20,692 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:20] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.049 0.036
+2023-04-28 12:56:20,870 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:20] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.009
+2023-04-28 12:56:21,023 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:21] "GET /om_hospital/static/description/icon.png HTTP/1.1" 404 - 2 0.006 0.003
+2023-04-28 12:56:21,337 13868 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:21] "GET /library_app/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-04-28 12:56:29,365 13868 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-04-28 12:56:37,194 13868 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Plant Care App'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:56:37,196 13868 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Plant Care App'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:56:37,196 13868 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Plant Care App'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:56:37,958 13868 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:56:38,213 13868 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:56:38,214 13868 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:56:38,221 13868 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:56:38,223 13868 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:56:38,249 13868 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-04-28 12:56:38,255 13868 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-28 12:56:38,279 13868 INFO Potosu odoo.modules.loading: updating modules list 
+2023-04-28 12:56:38,280 13868 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:56:39,136 13868 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:56:39,368 13868 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:56:39,380 13868 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:56:39,404 13868 INFO Potosu odoo.modules.loading: loading 64 modules... 
+2023-04-28 12:56:39,404 13868 INFO Potosu odoo.modules.loading: Loading module plant_care_app (2/64) 
+2023-04-28 12:56:39,440 13868 INFO Potosu odoo.modules.registry: module plant_care_app: creating or updating database tables 
+2023-04-28 12:56:39,570 13868 INFO Potosu odoo.modules.loading: loading plant_care_app/views/plant.xml 
+2023-04-28 12:56:39,607 13868 INFO Potosu odoo.modules.loading: loading plant_care_app/views/user_template.xml 
+2023-04-28 12:56:39,617 13868 INFO Potosu odoo.modules.loading: loading plant_care_app/views/users.xml 
+2023-04-28 12:56:39,633 13868 INFO Potosu odoo.modules.loading: loading plant_care_app/security/plant_security.xml 
+2023-04-28 12:56:39,644 13868 INFO Potosu odoo.modules.loading: loading plant_care_app/security/ir.model.access.csv 
+2023-04-28 12:56:39,669 13868 WARNING Potosu odoo.modules.loading: The models ['users'] have no access rules in module plant_care_app, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+plant_care_app.access_users,access_users,plant_care_app.model_users,base.group_user,1,0,0,0 
+2023-04-28 12:56:39,675 13868 INFO Potosu odoo.modules.loading: Module plant_care_app loaded in 0.27s, 172 queries 
+2023-04-28 12:56:39,742 13868 INFO Potosu odoo.modules.loading: 64 modules loaded in 0.34s, 172 queries (+0 extra) 
+2023-04-28 12:56:39,745 13868 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:56:39,748 13868 INFO Potosu odoo.modules.loading: loading 64 modules... 
+2023-04-28 12:56:39,748 13868 INFO Potosu odoo.modules.loading: 64 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-04-28 12:56:39,749 13868 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:56:39,751 13868 INFO Potosu odoo.modules.loading: loading 64 modules... 
+2023-04-28 12:56:39,752 13868 INFO Potosu odoo.modules.loading: 64 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-04-28 12:56:39,993 13868 ERROR Potosu odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['cap_many2many'] 
+2023-04-28 12:56:40,201 13868 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:40] "GET /web/static/img/spin.png HTTP/1.1" 304 - - - -
+2023-04-28 12:56:40,239 13868 INFO Potosu odoo.modules.loading: Model cap.book is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:56:40,239 13868 INFO Potosu odoo.modules.loading: Model cap.book.genre is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:56:40,239 13868 INFO Potosu odoo.modules.loading: Model res.partner.characteristics is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:56:40,244 13868 INFO Potosu odoo.modules.registry: verifying fields for every extended model 
+2023-04-28 12:56:40,556 13868 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-04-28 12:56:40,561 13868 INFO Potosu odoo.modules.registry: Registry loaded in 2.316s 
+2023-04-28 12:56:40,561 13868 INFO Potosu odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-04-28 12:56:40,564 13868 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2023-04-28 12:56:40,564 13868 INFO Potosu odoo.modules.registry: Registry changed, signaling through the database 
+2023-04-28 12:56:40,721 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:40] "POST /web/dataset/call_button HTTP/1.1" 200 - 3160 1.445 2.089
+2023-04-28 12:56:40,932 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:40] "POST /web/action/load HTTP/1.1" 200 - 22 0.018 1.170
+2023-04-28 12:56:41,276 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:41] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 - 7 0.009 0.009
+2023-04-28 12:56:41,599 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:41] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.007 0.004
+2023-04-28 12:56:42,999 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:42] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 3 0.006 0.014
+2023-04-28 12:56:43,319 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:43] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 2 0.001 0.006
+2023-04-28 12:56:43,647 13868 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:56:44,397 13868 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:56:44,665 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:44] "POST /web/dataset/call_button HTTP/1.1" 200 - 1056 0.336 0.687
+2023-04-28 12:56:51,222 13868 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Plant Care App'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:56:51,224 13868 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Plant Care App'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:56:51,224 13868 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Plant Care App'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:56:52,079 13868 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:56:52,541 13868 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:56:52,542 13868 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:56:52,547 13868 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:56:52,549 13868 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:56:52,579 13868 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-04-28 12:56:52,586 13868 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-28 12:56:52,610 13868 INFO Potosu odoo.modules.loading: updating modules list 
+2023-04-28 12:56:52,614 13868 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:56:53,450 13868 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:56:53,707 13868 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:56:53,711 13868 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:56:53,763 13868 INFO Potosu odoo.modules.loading: loading 64 modules... 
+2023-04-28 12:56:53,763 13868 INFO Potosu odoo.modules.loading: Loading module plant_care_app (2/64) 
+2023-04-28 12:56:53,829 13868 INFO Potosu odoo.modules.registry: module plant_care_app: creating or updating database tables 
+2023-04-28 12:56:53,900 13868 INFO Potosu odoo.modules.loading: loading plant_care_app/views/plant.xml 
+2023-04-28 12:56:53,961 13868 INFO Potosu odoo.modules.loading: loading plant_care_app/views/user_template.xml 
+2023-04-28 12:56:53,984 13868 INFO Potosu odoo.modules.loading: loading plant_care_app/views/users.xml 
+2023-04-28 12:56:54,017 13868 INFO Potosu odoo.modules.loading: loading plant_care_app/security/plant_security.xml 
+2023-04-28 12:56:54,031 13868 INFO Potosu odoo.modules.loading: loading plant_care_app/security/ir.model.access.csv 
+2023-04-28 12:56:54,056 13868 WARNING Potosu odoo.modules.loading: The models ['users'] have no access rules in module plant_care_app, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+plant_care_app.access_users,access_users,plant_care_app.model_users,base.group_user,1,0,0,0 
+2023-04-28 12:56:54,065 13868 INFO Potosu odoo.modules.loading: Module plant_care_app loaded in 0.30s, 164 queries 
+2023-04-28 12:56:54,128 13868 INFO Potosu odoo.modules.loading: 64 modules loaded in 0.37s, 164 queries (+0 extra) 
+2023-04-28 12:56:54,130 13868 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:56:54,133 13868 INFO Potosu odoo.modules.loading: loading 64 modules... 
+2023-04-28 12:56:54,133 13868 INFO Potosu odoo.modules.loading: 64 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-04-28 12:56:54,134 13868 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:56:54,137 13868 INFO Potosu odoo.modules.loading: loading 64 modules... 
+2023-04-28 12:56:54,137 13868 INFO Potosu odoo.modules.loading: 64 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-04-28 12:56:54,385 13868 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:54] "GET /web/static/img/spin.png HTTP/1.1" 304 - - - -
+2023-04-28 12:56:54,388 13868 ERROR Potosu odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['cap_many2many'] 
+2023-04-28 12:56:54,596 13868 INFO Potosu odoo.modules.loading: Model cap.book is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:56:54,597 13868 INFO Potosu odoo.modules.loading: Model cap.book.genre is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:56:54,597 13868 INFO Potosu odoo.modules.loading: Model res.partner.characteristics is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:56:54,600 13868 INFO Potosu odoo.modules.registry: verifying fields for every extended model 
+2023-04-28 12:56:55,015 13868 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-04-28 12:56:55,019 13868 INFO Potosu odoo.modules.registry: Registry loaded in 2.455s 
+2023-04-28 12:56:55,020 13868 INFO Potosu odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-04-28 12:56:55,023 13868 INFO Potosu odoo.modules.registry: Registry changed, signaling through the database 
+2023-04-28 12:56:55,024 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:55] "POST /web/dataset/call_button HTTP/1.1" 200 - 3152 1.557 2.252
+2023-04-28 12:56:55,347 13868 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2023-04-28 12:56:56,988 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:56] "GET /web HTTP/1.1" 200 - 270 0.125 1.522
+2023-04-28 12:56:57,600 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:57] "GET /web/assets/644-802da4e/web.assets_common.min.css HTTP/1.1" 200 - 2 0.003 0.280
+2023-04-28 12:56:57,612 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:57] "GET /web/assets/646-802da4e/web.assets_common.min.js HTTP/1.1" 304 - 2 0.009 0.283
+2023-04-28 12:56:57,612 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:57] "GET /web/webclient/load_menus/1cfa009289d96c8853e852dcc1b74c853a7732562302770ed339f54bca5ca896 HTTP/1.1" 200 - 1 0.000 0.285
+2023-04-28 12:56:57,612 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:57] "GET /web/assets/645-d9a1175/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.012 0.283
+2023-04-28 12:56:57,627 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:57] "GET /web/assets/647-d9a1175/web.assets_backend.min.js HTTP/1.1" 304 - 2 0.011 0.292
+2023-04-28 12:56:57,783 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:57] "GET /web/webclient/qweb/cabad1edfcddf6455c8f891cb8223229f3c123e6a5cf68e1dade8c60db89b948?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.000 0.453
+2023-04-28 12:56:58,166 13868 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:58] "GET /web/static/img/favicon.ico HTTP/1.1" 304 - - - -
+2023-04-28 12:56:58,323 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:58] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.011 0.081
+2023-04-28 12:56:58,440 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:58] "POST /web/action/load HTTP/1.1" 200 - 8 0.173 0.032
+2023-04-28 12:56:58,443 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:58] "GET /web/image?model=res.users&field=avatar_128&id=1 HTTP/1.1" 304 - 7 0.116 0.090
+2023-04-28 12:56:58,470 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:58] "POST /mail/init_messaging HTTP/1.1" 200 - 41 0.245 0.041
+2023-04-28 12:56:58,821 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:58] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.003 0.009
+2023-04-28 12:56:58,848 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:58] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.021 0.019
+2023-04-28 12:56:58,849 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:58] "POST /mail/inbox/messages HTTP/1.1" 200 - 5 0.023 0.014
+2023-04-28 12:56:58,859 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:58] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 200 - 7 0.018 0.012
+2023-04-28 12:56:58,864 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:56:58] "GET /web/image/res.partner/51/avatar_128 HTTP/1.1" 200 - 7 0.007 0.028
+2023-04-28 12:57:01,580 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:01] "POST /web/action/load HTTP/1.1" 200 - 16 0.038 0.017
+2023-04-28 12:57:01,942 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:01] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 23 0.023 0.019
+2023-04-28 12:57:02,280 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:02] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.008 0.009
+2023-04-28 12:57:02,603 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:02] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 2 0.002 0.005
+2023-04-28 12:57:02,936 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:02] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.004 0.006
+2023-04-28 12:57:03,309 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:03] "POST /web/action/load HTTP/1.1" 200 - 15 0.011 0.013
+2023-04-28 12:57:03,646 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:03] "POST /web/dataset/call_kw/plant/load_views HTTP/1.1" 200 - 15 0.015 0.013
+2023-04-28 12:57:03,978 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:03] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.006 0.007
+2023-04-28 12:57:04,314 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:04] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.003 0.019
+2023-04-28 12:57:07,245 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:07] "POST /web/action/load HTTP/1.1" 200 - 12 0.005 0.014
+2023-04-28 12:57:07,577 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:07] "POST /web/dataset/call_kw/users/load_views HTTP/1.1" 200 - 11 0.010 0.009
+2023-04-28 12:57:07,915 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:07] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.003 0.005
+2023-04-28 12:57:15,397 13868 ERROR Potosu odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\base\models\ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\service\model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 916, in __call__
+    return self.method(*args, **kw)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\web\controllers\main.py", line 1342, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\web\controllers\main.py", line 1334, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\api.py", line 464, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\api.py", line 451, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\models.py", line 6507, in onchange
+    result['value'] = snapshot1.diff(snapshot0, force=first_call)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\models.py", line 6331, in diff
+    result[name] = field.convert_to_onchange(self[name], record, {})
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\fields.py", line 2844, in convert_to_onchange
+    if not value.id:
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+AttributeError: '_unknown' object has no attribute 'id'
+2023-04-28 12:57:15,417 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:15] "POST /web/dataset/call_kw/users/onchange HTTP/1.1" 200 - 2 0.021 0.026
+2023-04-28 12:57:19,383 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.020 50.031
+2023-04-28 12:57:48,444 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:48] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.018 50.193
+2023-04-28 12:57:49,027 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:57:49] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.001 0.008
+2023-04-28 12:58:38,788 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:58:38] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.017 50.017
+2023-04-28 12:58:39,364 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:58:39] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.006 0.006
+2023-04-28 12:58:47,918 13868 ERROR Potosu odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\base\models\ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\service\model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 916, in __call__
+    return self.method(*args, **kw)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\web\controllers\main.py", line 1342, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\addons\web\controllers\main.py", line 1334, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\api.py", line 464, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\api.py", line 451, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\models.py", line 6507, in onchange
+    result['value'] = snapshot1.diff(snapshot0, force=first_call)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\models.py", line 6331, in diff
+    result[name] = field.convert_to_onchange(self[name], record, {})
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\fields.py", line 2844, in convert_to_onchange
+    if not value.id:
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo\http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+AttributeError: '_unknown' object has no attribute 'id'
+2023-04-28 12:58:47,919 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:58:47] "POST /web/dataset/call_kw/users/onchange HTTP/1.1" 200 - 1 0.001 0.006
+2023-04-28 12:59:13,635 13868 INFO Potosu odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-04-28 12:59:13,660 13868 INFO Potosu odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-04-28 12:59:20,986 13868 INFO ? odoo.service.server: Initiating shutdown 
+2023-04-28 12:59:20,986 13868 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-04-28 12:59:21,293 13868 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 9 connections  
+2023-04-28 12:59:21,344 13868 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 42.234
+2023-04-28 12:59:23,309 1716 INFO ? odoo: Odoo version 15.0-20230206 
+2023-04-28 12:59:23,310 1716 INFO ? odoo: Using configuration file at C:\Users\wrigh\OneDrive\Desktop\Odoo\server\odoo.conf 
+2023-04-28 12:59:23,310 1716 INFO ? odoo: addons paths: ['C:\\Users\\wrigh\\OneDrive\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\server\\odoo\\addons', 'c:\\users\\wrigh\\onedrive\\desktop\\odoo\\custom_modules'] 
+2023-04-28 12:59:23,310 1716 INFO ? odoo: database: openpg@localhost:5432 
+2023-04-28 12:59:23,469 1716 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\wrigh\OneDrive\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2023-04-28 12:59:23,723 1716 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-B922KQD.8F.pointe.orld.fl.wtsky.net:8069 
+2023-04-28 12:59:27,783 1716 INFO ? odoo.http: HTTP Configuring static files 
+2023-04-28 12:59:27,855 1716 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-04-28 12:59:27,861 1716 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-04-28 12:59:27,874 1716 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:59:27,880 1716 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:59:27,913 1716 INFO Potosu odoo.modules.loading: loading 64 modules... 
+2023-04-28 12:59:27,923 1716 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:59:29,044 1716 INFO Potosu odoo.modules.loading: 64 modules loaded in 1.13s, 0 queries (+0 extra) 
+2023-04-28 12:59:29,289 1716 ERROR Potosu odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['cap_many2many'] 
+2023-04-28 12:59:29,290 1716 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-04-28 12:59:29,299 1716 INFO Potosu odoo.modules.registry: Registry loaded in 1.505s 
+2023-04-28 12:59:29,305 1716 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2023-04-28 12:59:29,510 1716 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2023-04-28 12:59:29,744 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:29] "POST /longpolling/im_status HTTP/1.1" 200 - 8 0.045 0.313
+2023-04-28 12:59:29,953 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:29] "POST /web/action/load HTTP/1.1" 200 - 47 0.185 1.974
+2023-04-28 12:59:30,360 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:30] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 47 0.062 0.034
+2023-04-28 12:59:30,579 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:30] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.034 0.015
+2023-04-28 12:59:30,698 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:30] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.007
+2023-04-28 12:59:30,897 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:30] "GET /om_hospital/static/description/icon.png HTTP/1.1" 404 - 2 0.006 0.004
+2023-04-28 12:59:31,077 1716 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:31] "GET /library_app/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-04-28 12:59:34,061 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:34] "POST /web/action/load HTTP/1.1" 200 - 16 0.016 0.013
+2023-04-28 12:59:34,395 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:34] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 - 6 0.005 0.008
+2023-04-28 12:59:34,659 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:34] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.005 0.004
+2023-04-28 12:59:35,928 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:35] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 3 0.004 0.007
+2023-04-28 12:59:36,241 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:36] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 2 0.002 0.005
+2023-04-28 12:59:36,506 1716 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:59:37,243 1716 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:59:37,566 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:37] "POST /web/dataset/call_button HTTP/1.1" 200 - 1056 0.384 0.680
+2023-04-28 12:59:42,464 1716 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Plant Care App'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:59:42,466 1716 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Plant Care App'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:59:42,466 1716 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Plant Care App'] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:59:43,020 1716 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-04-28 12:59:43,158 1716 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:59:43,557 1716 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:59:43,558 1716 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:59:43,565 1716 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:59:43,566 1716 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:59:43,596 1716 INFO Potosu odoo.modules.loading: loading 1 modules... 
+2023-04-28 12:59:43,602 1716 INFO Potosu odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-04-28 12:59:43,631 1716 INFO Potosu odoo.modules.loading: updating modules list 
+2023-04-28 12:59:43,632 1716 INFO Potosu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-04-28 12:59:44,553 1716 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:59:45,061 1716 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:59:45,073 1716 WARNING Potosu odoo.modules.module: Missing `license` key in manifest for 'plant_care_app', defaulting to LGPL-3 
+2023-04-28 12:59:45,126 1716 INFO Potosu odoo.modules.loading: loading 64 modules... 
+2023-04-28 12:59:45,126 1716 INFO Potosu odoo.modules.loading: Loading module plant_care_app (2/64) 
+2023-04-28 12:59:45,182 1716 INFO Potosu odoo.modules.registry: module plant_care_app: creating or updating database tables 
+2023-04-28 12:59:45,350 1716 INFO Potosu odoo.modules.loading: loading plant_care_app/views/plant.xml 
+2023-04-28 12:59:45,405 1716 INFO Potosu odoo.modules.loading: loading plant_care_app/views/user_template.xml 
+2023-04-28 12:59:45,424 1716 INFO Potosu odoo.modules.loading: loading plant_care_app/views/users.xml 
+2023-04-28 12:59:45,446 1716 INFO Potosu odoo.modules.loading: loading plant_care_app/security/plant_security.xml 
+2023-04-28 12:59:45,464 1716 INFO Potosu odoo.modules.loading: loading plant_care_app/security/ir.model.access.csv 
+2023-04-28 12:59:45,514 1716 WARNING Potosu odoo.modules.loading: The models ['users'] have no access rules in module plant_care_app, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+plant_care_app.access_users,access_users,plant_care_app.model_users,base.group_user,1,0,0,0 
+2023-04-28 12:59:45,531 1716 INFO Potosu odoo.modules.loading: Module plant_care_app loaded in 0.41s, 172 queries 
+2023-04-28 12:59:45,670 1716 INFO Potosu odoo.modules.loading: 64 modules loaded in 0.54s, 172 queries (+0 extra) 
+2023-04-28 12:59:45,673 1716 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:59:45,678 1716 INFO Potosu odoo.modules.loading: loading 64 modules... 
+2023-04-28 12:59:45,678 1716 INFO Potosu odoo.modules.loading: 64 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-04-28 12:59:45,680 1716 WARNING Potosu odoo.modules.graph: module cap_many2many: not installable, skipped 
+2023-04-28 12:59:45,687 1716 INFO Potosu odoo.modules.loading: loading 64 modules... 
+2023-04-28 12:59:45,688 1716 INFO Potosu odoo.modules.loading: 64 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-04-28 12:59:46,010 1716 ERROR Potosu odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['cap_many2many'] 
+2023-04-28 12:59:46,188 1716 INFO Potosu odoo.modules.loading: Model cap.book is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:59:46,188 1716 INFO Potosu odoo.modules.loading: Model cap.book.genre is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:59:46,188 1716 INFO Potosu odoo.modules.loading: Model res.partner.characteristics is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2023-04-28 12:59:46,191 1716 INFO Potosu odoo.modules.registry: verifying fields for every extended model 
+2023-04-28 12:59:46,645 1716 INFO Potosu odoo.modules.loading: Modules loaded. 
+2023-04-28 12:59:46,650 1716 INFO Potosu odoo.modules.registry: Registry loaded in 3.063s 
+2023-04-28 12:59:46,650 1716 INFO Potosu odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-04-28 12:59:46,653 1716 INFO Potosu odoo.modules.registry: Registry changed, signaling through the database 
+2023-04-28 12:59:46,654 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:46] "POST /web/dataset/call_button HTTP/1.1" 200 - 3162 1.589 2.609
+2023-04-28 12:59:46,987 1716 INFO Potosu odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2023-04-28 12:59:48,715 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:48] "GET /web HTTP/1.1" 200 - 270 0.130 1.600
+2023-04-28 12:59:49,412 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:49] "GET /web/webclient/load_menus/1cfa009289d96c8853e852dcc1b74c853a7732562302770ed339f54bca5ca896 HTTP/1.1" 200 - 1 0.000 0.311
+2023-04-28 12:59:49,414 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:49] "GET /web/assets/644-802da4e/web.assets_common.min.css HTTP/1.1" 200 - 2 0.008 0.360
+2023-04-28 12:59:49,430 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:49] "GET /web/assets/645-d9a1175/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.007 0.374
+2023-04-28 12:59:49,432 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:49] "GET /web/assets/646-802da4e/web.assets_common.min.js HTTP/1.1" 304 - 2 0.021 0.357
+2023-04-28 12:59:49,463 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:49] "GET /web/assets/647-d9a1175/web.assets_backend.min.js HTTP/1.1" 304 - 2 0.002 0.020
+2023-04-28 12:59:49,696 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:49] "GET /web/webclient/qweb/cabad1edfcddf6455c8f891cb8223229f3c123e6a5cf68e1dade8c60db89b948?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.004 0.594
+2023-04-28 12:59:50,467 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:50] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.011 0.005
+2023-04-28 12:59:50,533 1716 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:50] "GET /web/static/img/favicon.ico HTTP/1.1" 304 - - - -
+2023-04-28 12:59:50,549 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:50] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.010 0.009
+2023-04-28 12:59:50,639 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:50] "POST /mail/init_messaging HTTP/1.1" 200 - 41 0.095 0.048
+2023-04-28 12:59:50,733 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:50] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.020 0.006
+2023-04-28 12:59:51,071 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:51] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.036 0.021
+2023-04-28 12:59:52,185 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:52] "GET /web/image?model=res.users&field=avatar_128&id=1 HTTP/1.1" 304 - 7 0.006 0.019
+2023-04-28 12:59:52,490 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:52] "POST /web/action/load HTTP/1.1" 200 - 8 0.010 0.013
+2023-04-28 12:59:52,830 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:52] "POST /mail/inbox/messages HTTP/1.1" 200 - 5 0.013 0.008
+2023-04-28 12:59:52,879 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:52] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 200 - 7 0.006 0.020
+2023-04-28 12:59:52,890 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:52] "GET /web/image/res.partner/51/avatar_128 HTTP/1.1" 200 - 7 0.009 0.026
+2023-04-28 12:59:57,758 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:57] "POST /web/action/load HTTP/1.1" 200 - 15 0.040 0.018
+2023-04-28 12:59:58,121 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:58] "POST /web/dataset/call_kw/plant/load_views HTTP/1.1" 200 - 15 0.026 0.021
+2023-04-28 12:59:58,451 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:58] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.007 0.007
+2023-04-28 12:59:58,779 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:58] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 3 0.002 0.009
+2023-04-28 12:59:59,101 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 12:59:59] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.004
+2023-04-28 13:00:01,411 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 13:00:01] "POST /web/action/load HTTP/1.1" 200 - 12 0.006 0.014
+2023-04-28 13:00:01,740 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 13:00:01] "POST /web/dataset/call_kw/users/load_views HTTP/1.1" 200 - 11 0.006 0.014
+2023-04-28 13:00:02,056 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 13:00:02] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.001 0.004
+2023-04-28 13:00:06,047 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 13:00:06] "POST /web/dataset/call_kw/users/onchange HTTP/1.1" 200 - 2 0.006 0.006
+2023-04-28 13:00:06,380 1716 INFO ? werkzeug: 127.0.0.1 - - [28/Apr/2023 13:00:06] "GET /web/static/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-04-28 13:00:08,020 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 13:00:08] "POST /web/dataset/call_kw/res.users/name_search HTTP/1.1" 200 - 4 0.004 0.016
+2023-04-28 13:00:33,027 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 13:00:33] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.014 50.012
+2023-04-28 13:00:41,061 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 13:00:41] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.001 0.007
+2023-04-28 13:00:41,310 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 13:00:41] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.048 50.246
+2023-04-28 13:01:31,680 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 13:01:31] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.010 50.026
+2023-04-28 13:01:32,251 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 13:01:32] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.005
+2023-04-28 13:02:22,006 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 13:02:22] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.015
+2023-04-28 13:02:23,017 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 13:02:23] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.001 0.006
+2023-04-28 13:03:12,350 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 13:03:12] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.028
+2023-04-28 13:03:14,025 1716 INFO Potosu werkzeug: 127.0.0.1 - - [28/Apr/2023 13:03:14] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.012

@@ -43,4 +43,5 @@
     
     <!-- Menu Item-->
     <menuitem id="garden" name="Garden" action="plant" />
+    <menuitem id="plants" name="Plants" action="plant" parent="garden"/>
 </odoo>
